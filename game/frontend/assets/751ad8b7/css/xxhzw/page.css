@@ -1,0 +1,24 @@
+#news{height:177px;margin-bottom:15px;}
+#news_pic{float:left;width:450px;height:177px;overflow:hidden;background:#ccc;}
+#news_list{float:right;width:252px;height:177px;}
+#nl_top{height:10px;background:url(images/news_top.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/news_top.png");background:none;overflow:hidden;}
+#nl_bottom{height:10px;background:url(images/news_bottom.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/news_bottom.png");background:none;overflow:hidden;}
+#nl_cont{height:123px;background:url(images/news_bg.jpg) repeat-y;padding:6px 10px 0px 10px;overflow:hidden;}
+#nl_cont li{line-height:2em;border-bottom:1px dotted #666;}
+#nl_cont li a{color:#999;}
+#nl_cont li a:hover{color:#fc6;}
+#nl_cont li span{float:right;*margin-top:-2em;color:#666;}
+#nl_title h2{width:252px;height:28px;text-indent:252px;display:block;background:url(images/news_title.jpg) no-repeat;}
+#title{height:34px;line-height:32px;}
+#title_left{float:left;width:10px;height:34px;background:url(images/ccol_t_left.png) no-repeat;}
+#title_right{float:right;width:10px;height:34px;background:url(images/ccol_t_right.png) no-repeat;}
+#title dl dt{background:url(images/game_icon.jpg) no-repeat left center;padding-left:2em;}
+#title dl{float:left;width:697px;height:34px;display:block;background:url(images/ccol_t_bg.png) repeat-x;}
+#title dl dt,#title dl dd{display:inline;}
+#text_warp{background:#333;margin-top:-2px;padding:20px 35px;}
+#text_title{text-align:center;}
+#text_title h2{font-size:28px;color:#fff;line-height:2em;}
+#text_title dl dt,#text_title dl dd{display:inline;}
+#text_title dl{border-bottom:1px solid #4d4d4d;padding-bottom:5px;margin-bottom:15px;}
+#text_cont{line-height:2em;font-size:14px;color:#999;}
+#text_bottom{height:10px;background:url(images/ccol_bottoms.png) no-repeat;overflow:hidden;}

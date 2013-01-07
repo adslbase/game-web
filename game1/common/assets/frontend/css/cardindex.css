@@ -1,0 +1,67 @@
+#sider{float:left;width:244px;}
+#cont{float:right;width:720px;}
+#warp{padding:10px 0px 20px 0px;}
+#server_warp{background:#dadada;padding:4px;}
+#server_cont{background:#F1F1F1;padding:4px;border:1px solid #C8C8C8;}
+#server_title{height:22px;line-height:22px;background:url(../images/reg_title.jpg) no-repeat left center #938F8A;}
+#server_title dl{font-size:12px;color:#fff;text-indent:3em;}
+#server_title dl a{color:#fff;}
+#server_title dl dt,#server_title dl dd{display:inline;padding-right:.5em;}
+#userLogin{width:232px;height:237px;overflow:hidden;background:url(../images/user_bg.jpg) no-repeat;padding:6px;}
+#ul_title{height:25px;line-height:25px;border-bottom:2px solid #c31c2d;background:url(../images/user_title_h2.jpg) no-repeat;overflow:hidden;}
+#ul_title h2{display:none;}
+#ul_cont{background:#fff;height:175px;padding:12px;}
+#ul_cont label{display:block;height:27px;line-height:27px;margin-bottom:5px;vertical-align:middle;}
+.user_in{border:1px solid #ccc;width:146px;height:25px;background:#f5f5f5;text-indent:.5em;}
+.user_d{margin-left:4em;}
+.user_d a{padding-left:2em;color:blue;}
+.user_d a:hover{color:red;}
+.user_d input{vertical-align:middle;margin-right:5px;}
+.user_button{margin-top:10px;}
+.user_button input{width:83px;height:40px;margin-left:1em;border:none;color:#fff;cursor:pointer;}
+.ub_login{background:url(../images/login_button.jpg) no-repeat;}
+.ub_reg{background:url(../images/reg_button.jpg) no-repeat;}
+.in_title{float:left;width:50px;}
+.in_title input{float:left;}
+#newGame{margin-top:10px;}
+#ng_title{height:27px;line-height:27px;}
+.ngt_left,.ngt_right{width:5px;height:27px;}
+.ngt_left{float:left;background:url(../images/new_game_left.jpg) no-repeat;}
+.ngt_right{float:right;background:url(../images/new_game_right.jpg) no-repeat;}
+#ng_title h2{float:left;width:234px;height:27px;background:#dadada;display:block;font-size:12px;font-weight:normal;color:#D57300;}
+.tbline td{border-bottom:2px dotted #ccc;}
+#ng_cont{border-right:1px solid #ccc;border-left:1px solid #ccc;border-bottom:1px solid #ccc;padding-bottom:10px;}
+#ng_cont a{color:#FF7B6B;font-weight:bold;}
+#ng_cont a:hover{text-decoration:underline;}
+.page_nu{text-align:center;padding:20px 0px;font-weight:normal;}
+.page_nu a:hover,.pageHover{background:#9E6C7B!important;border:1px solid #9E6C7B!important;color:#fff;}
+.page_nu a{border:1px solid #ccc;padding:2px .5em;background:#fff;margin:0px .4em;}
+#cont{border:3px solid #DADADA;background:#F1F1F1;overflow:hidden;}
+#hot_ka,#new_ka,#game_inf{padding:3px;}
+.ka_title{height:22px;line-height:22px;background:#938F8A;color:#fff;}
+.ka_title h2{height:22px;line-height:22px;font-size:14px;text-indent:2.4em;background:url(../images/reg_title.jpg) no-repeat;}
+.ka_title .more{float:right;margin-top:-22px;color:#ccc;padding-right:1em;}
+#hk_cont{padding:14px 0px 0px 10px;}
+#hk_cont dl{float:left;width:128px;margin-right:14px;text-align:center;}
+#hk_cont dl dt a{display:block;padding:3px;border:1px solid #A3B1C1;}
+#hk_cont dl dd{line-height:2em;}
+#hk_list{padding:10px 0px;}
+#hk_list li{float:left;width:340px;line-height:2.6em;background:url(../images/bit2.jpg) no-repeat center left;text-indent:1em;}
+.hk_btn{float:right;display:block;width:43px;height:21px;line-height:21px;text-align:center;background:url(../images/bita.png) no-repeat 0px -84px;overflow:hidden;*margin-top:-2.6em;overflow:hidden;text-indent:0px;margin-right:20px;}
+#new_ka{margin-bottom:10px;}
+#nk_cont dl{border-bottom:1px dashed #C6C8CA;text-indent:1em;}
+#nk_cont dt,#nk_cont dd{display:inline;line-height:3em;}
+#nk_cont dd{margin:0px .2em;}
+#nk_cont dd a{padding:0px .6em;}
+#nk_cont dd a:hover,.nk_hv{background:#9CC;color:#fff;}
+#gi_cont{padding:10px;}
+#gi_cont dl{display:block;height:90px;margin-bottom:10px;position:relative;padding:10px;}
+#gi_cont dt{float:left;margin-right:10px;}
+#gi_cont dt a{display:block;width:120px;height:80px;overflow:hidden;padding:4px;border:1px solid #C5C5C5;}
+#gi_cont dd{line-height:2em;}
+#gi_cont .game_name a{font-size:16px;font-weight:bold;color:#f60;margin-right:.6em;}
+#gi_cont .game_name a:hover{text-decoration:underline;}
+#gi_cont .game_name span{color:#c33;}
+#gi_cont .gi_btn a{width:91px;height:39px;line-height:39px;text-align:center;background:url(../images/bita.png) no-repeat -98px 0px;position:absolute;right:50px;top:30px;white-space:nowrap;overflow:hidden;text-indent:91px;}
+#gi_cont .gi_btn a:hover{background:url(../images/bita.png) no-repeat;}
+#gi_cont .gi_bg{background:#fff;}

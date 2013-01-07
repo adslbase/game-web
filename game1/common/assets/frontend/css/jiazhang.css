@@ -1,0 +1,41 @@
+body,td,th {
+        font-size: 12px;
+        color: #000;
+}
+body {
+        margin-left: 0px;
+        margin-top: 0px;
+        background:url(../images/jz/bodybj.jpg) top repeat-x;
+        height:100%;
+
+}
+images { border:0px;}
+ul { margin:0px; padding:0px; list-style:none; padding-left:60px; padding-top:21px; height:67px;}
+ul li { list-style:none; float:left; margin-right:18px;}
+#main { width:1080px; margin:0px auto; padding:0px; background:url(../images/jz/topbj.jpg) top no-repeat;}
+.top { margin:0px; height:203px; padding:0px; text-align:right; padding-right:20px;}
+.dp { float:right;}
+.jright { margin:74px 21px 0px 0px; padding-left:26px; width:725px; float:left;}
+.jj { width:751px; background:url(../images/jz/jj.jpg) top no-repeat; margin:0px; height:151px;}
+
+.jleft { margin:0px; padding:0px; width:260px; margin-right:22px; float:right;}
+.tt1 { background:url(../images/jz/zxfs.jpg) top no-repeat; width:260px; height:52px;}
+.zx { background:url(../images/jz/zxfsbj.jpg) repeat-x;width:220px; height:145px; padding-left:40px; padding-top:5px; font-size:12px; line-height:20px; font-weight:bold;}
+.tt2 { background:url(../images/jz/sqbxzt.jpg) top no-repeat; width:260px; height:52px;}
+.xz { background:url(../images/jz/sqbbj.jpg) no-repeat; width:210px; height:198px;padding-left:50px; padding-top:5px; font-size:12px; line-height:30px; font-weight:bold;}
+
+/*.content_t { width:750px; height:19px; background:url(../images/jz/nrtop.jpg) top no-repeat; float:left;}*/
+/*.content_b { width:750px; height:19px; background:url(../images/jz/nrbottom.jpg) top no-repeat;float:left;}*/
+.content { width:710px; height:160px; float:left; padding:0px 20px 10px 20px; line-height:24px; font-size:14px;}
+.contnet1
+.bt { font-size:14px; color:#900; font-weight:bold; text-align:center;}
+.c_tt { width:710px; text-align:center; font-size:14px; font-weight:bold; color:#06C}
+a:link { color: #036; text-decoration:none;}
+.sqlc_tt { background:url(../images/jz/sqlc.png) no-repeat; height:720px; width:636px; display:block;}
+
+a:visited { color:#000; text-decoration:none;}
+a:active { color:#000; text-decoration:none;}
+a:hover { color: #F00; text-decoration:underline;}
+
+.foot { height:100px; width:980px; margin:0px auto; text-align:center; margin-top:60px; border-top:1px solid #CCC; padding-top:30px; font-size:12px; font-weight:bold; color:#3984CE;}
+#clearh {clear:both;}

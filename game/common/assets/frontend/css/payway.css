@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*
+--------------------------------------
+Codetype: Css
+Website:  v.sdo.com
+Author:   Michael Xu
+--------------------------------------
+*/
+
+.fL{float:left}
+.fR{float:right}
+.mgAuto{margin-left:auto;margin-right:auto}
+.mgT30{margin-top:30px}
+.mgT20{margin-top:20px}
+.mgT15{margin-top:15px}
+.mgT10{margin-top:10px}
+.mgT5{margin-top:5px}
+.mgB30{margin-bottom:30px}
+.mgB20{margin-bottom:20px}
+.mgB15{margin-bottom:15px}
+.mgB10{margin-bottom:10px}
+.mgB5{margin-bottom:5px}
+.mgB3{margin-bottom:3px}
+.fB{font-weight:bold}
+.tC{text-align:center}
+.tL{text-align:left}
+.tR{text-align:right}
+.tJ{text-align:justify}
+.f12{font-size:12px}
+.f14{font-size:14px}
+.f16{font-size:16px}
+.f18{font-size:18px}
+.f24{font-size:24px}
+
+.clear{height:0; overflow:hidden; clear:both}
+
+a:link, a:visited{color:#646464}
+a:hover, a:active{color:#FF6600}
+
+a.a_blue:link, a.a_blue:visited{color:#538BC4; text-decoration:underline}
+a.a_blue:hover{color:#f60}
+
+.main{width:984px; padding-bottom:36px; margin-top: 20px;}
+.inner{ background:#DADADA url(http://static.sdg-china.com/vgp/pic/web2//5.png) 0 bottom no-repeat; min-height:400px;_height:400px; padding:1px 5px 5px; width:974px;}
+
+.payflow{width:974px; height:69px; background:url(http://static.sdg-china.com/vgp/pic/web2//payflow.png) 0 0 no-repeat; overflow:hidden;}
+.payflow .cont{width:900px; padding-left:55px; height:48px; margin:11px  0 0 11px; background:url(http://static.sdg-china.com/vgp/pic/web2//payflow.png) -920px -77px no-repeat; }
+.payflow ol{ height:48px; width:898px;background:url(http://static.sdg-china.com/vgp/pic/web2//payflow.png); overflow:hidden; text-indent:-9999px;}
+.payflow ol.step1{ background-position:0 -77px}
+.payflow ol.step2{ background-position:0 -125px}
+.payflow ol.step3{ background-position:0 -173px}
+.payflow ol.step4{ background-position:0 -221px}
+
+.leftSide{width:239px; float:left; display:inline; background:url(http://static.sdg-china.com/vgp/pic/web2//6.png) -239px -48px repeat-y; position:relative; z-index:2;}
+.leftSide_inner{background:url(http://static.sdg-china.com/vgp/pic/web2//6.png) 0 0 no-repeat}
+.leftSide_cont{background:url(http://static.sdg-china.com/vgp/pic/web2//6.png) -478px bottom no-repeat; padding:10px 2px; min-height:400px;_height:400px; width:235px;}
+
+.rightSide{width:730px; float:right; display:inline; background:url(http://static.sdg-china.com/vgp/pic/web2//7.png) -730px 0 repeat-y; position:relative; z-index:1;}
+.rightSide_inner{background:url(http://static.sdg-china.com/vgp/pic/web2//7.png) 0 0 no-repeat}
+.rightSide_cont{background:url(http://static.sdg-china.com/vgp/pic/web2//7.png) -1460px bottom no-repeat; padding:10px 0;  min-height:400px;_height:400px; }
+
+.mod_1{width:235px;}
+.mod_1 h2{background:#928B77; border-top:1px dotted #fff;border-bottom:1px dotted #fff; height:25px; line-height:25px; font-weight:bold; color:#fff; font-size:14px; text-indent:18px}
+
+.pay{width:235px; min-height:250px;_height:250px; position:relative;}
+ul.payway{position:absolute; left:0; top:28px; z-index:3; width:235px;}
+ul.payway li{width:235px; height:28px; background:#D1D0C8; line-height:28px; overflow:hidden; margin:1px auto;}
+ul.payway li.current{border:1px solid #C8C8C8; border-right-color:#F1F1F1; width:242px; background:#F1F1F1; margin:5px 0; box-shadow:0px 2px 0px rgba(200,200,200, 0.4)}
+ul.payway li a{display:block; font-family:\5b8b\4f53; width:100%; height:100%; text-indent:44px; font-weight:bold; background:url(../images/pay_icon3.png) no-repeat}
+ul.payway li a span{ padding-right:12px; background:url(http://static.sdg-china.com/vgp/pic/web2//arrow4.png) 100% center no-repeat;}
+ul.payway li a.way_2{ background-position:17px 6px;}
+ul.payway li a.way_1{ background-position:17px -364px;}
+ul.payway li a.way_3{ background-position:16px -396px;}
+
+ul.payway li a:link, ul.payway li a:visited{color:#6D6E6F}
+ul.payway li a:hover{ text-decoration:none; color:#333;}
+ul.payway li.current a:link, ul.payway li.current a:visited{color:#F60}
+ul.payway li.current a:hover{color:#F60; text-decoration:none}
+
+.activities .cont{ background:#928B77; width:225px;height:214px; padding:5px; position:relative}
+.activities .cont img{position:absolute; z-index:1; left:5px; top:5px; width:225px; height:214px;}
+.activities .cont .des{position:absolute; z-index:2; left:15px; top:120px; color:#6D6E6F; line-height:1.5}
+.activities a.more{display:block; background:url(http://static.sdg-china.com/vgp/pic/web2//btn.png) 0 0 no-repeat; text-indent:32px; width:123px; height:30px; line-height:30px; position:absolute; left:55px; bottom:13px; z-index:3}
+.activities a.more:link, .activities a.more:visited{color:#61663E}
+.activities a.more:hover{color:#F30; text-decoration:none; left:56px; bottom:12px;}
+
+.helpcenter ul li{ width:100%; zoom:1; text-indent:18px; border-bottom:1px dotted #D4D4D4; height:28px; line-height:28px; background:url(http://static.sdg-china.com/vgp/pic/web2//arrow.png) 6px 10px no-repeat; font-family:\5b8b\4f53;}
+
+a.clientser{display:block; background:url(http://static.sdg-china.com/vgp/pic/web2//btn4.png) 0 0 no-repeat; text-align:center; height:47px; width:179px; line-height:47px; font-size:14px; position:relative; left:50%; margin-left:-90px;}
+a.clientser:link, a.clientser:visited{color:#7A7777}
+a.clientser:hover{color:#c00; text-decoration:none}
+
+.games{width:680px; padding:17px 0 0 30px; overflow:hidden;}
+.games .cont{width:720px;}
+.gamePic{float:left; width:141px; height:124px; text-align:center; margin:0 37px 30px 0;}
+.gamePic img{width:135px; height:94px; padding:2px; border:1px solid #B3B4B6; margin-bottom:7px;}
+.gamePic a:hover img{ border:2px solid #c00; padding:1px;}
+.gamePic a:hover{ text-decoration:none;}
+
+.paywayAll{ padding:10px 2px; width:726px; overflow:hidden;}
+.paywayAll .paywayHeader{background:#EAECED; text-align:center;  border:1px solid #FFFFFF;  font-size:14px;  line-height:26px; overflow: hidden; padding:8px 14px; margin:0 18px 20px 18px}
+.paywayHeader strong{color:#3572C3}
+.paywayHeader strong.success{ background:url(http://static.sdg-china.com/vgp/pic/web2//fuhao/success.png) 0 0 no-repeat; padding:1px 0 1px 22px; color:#6D6E6F}
+.paywayHeader strong.fail{ background:url(http://static.sdg-china.com/vgp/pic/web2//fuhao/onError.gif) 0 -3px no-repeat; padding:1px 0 1px 22px; color:#6D6E6F}
+.paywayAll .paywayHeader2{ height:26px; font-size:14px; text-align:center}
+
+
+.payModel{ padding:10px; margin:5px 30px}
+.payModel h5{ font-weight:bold; font-size:14px; line-height:30px;}
+.payModel ul.readme li{ line-height:1.8}
+
+.payTable th, .payTable td{ padding:8px 2px;}
+.payTable th{ text-align:left}
+.payTable select{width:206px; font-size:12px; padding:2px; border:1px solid #C0C0C0; background:#fff;}
+.payTable .txtSty{background: url(http://static.sdg-china.com/vgp/pic/web2//tx.png) repeat-x 0 0; border: 1px solid #D0CFCE;  margin:0; width:200px; font-size:14px; padding:5px 2px; color:#333}
+.payTable p.tishi a:link, .payTable p.tishi a:visited{color:#538BC4; text-decoration:underline}
+.payTable p.tishi a:hover{ color:#f60}
+
+.payInfo{ background:#fff; padding:20px; border-top:1px solid #6494D5; border-bottom:1px solid #E4E4E4; margin:30px 20px; box-shadow:0px 3px 0 rgba(200,200,200,0.3)}
+
+.payInfo th, .payInfo td{   padding:12px 5px; font-size:14px;}
+.payInfo th{ font-size:14px;}
+.payInfo th{ text-align:right;}
+.payInfo em{color:#FF7400; font-family:Arial, Helvetica, sans-serif; }
+.payInfo span{color:#06F; font-family:Arial, Helvetica, sans-serif; margin-right:5px}
+
+.onShow, .onFocus, .onError, .onCorrect, .onLoad{padding-left:22px;line-height:22px; vertical-align:middle; width:250px;}
+.onShow{background:url(http://static.sdg-china.com/vgp/pic/web2//fuhao/onShow.gif) no-repeat; color:#565656;}
+.onFocus{background:url(http://static.sdg-china.com/vgp/pic/web2//fuhao/onFocus.gif) no-repeat; }
+.onTip{color:#FF7400}
+.onError{background:url(http://static.sdg-china.com/vgp/pic/web2//fuhao/onError.gif) no-repeat; color:#FF7400 }
+.onCorrect{background: url(http://static.sdg-china.com/vgp/pic/web2//fuhao/onCorrect.gif) no-repeat; }
+.onLoad{background:url(http://static.sdg-china.com/vgp/pic/web2//fuhao/onLoad.gif) no-repeat 3px 3px;} 
+
+.banks div{float:left; height:32px; margin:12px 30px; overflow:hidden; padding-left:5px; width:145px; border:1px solid #DAD8D7; background:#fff; box-shadow:2px 2px 0 rgba(200,200,200,0.3); display:inline}
+.banks div:hover{border-color:#F60}
+.banks div.selected{border: 1px solid #579F00;}
+.banks input, .banks img{ vertical-align:middle}
+.banks input{display:inline-block; height:12px; width:12px; font-size:12px;}
+.banks label{ cursor:pointer}
+
+
+input.moreBanks, input.payBtn, input.submitBtn, input.continueBtn,input.chargeBtn{border:none; display:block;width:179px; height:47px; overflow:hidden; text-indent:-9999px; margin:0 auto; cursor:pointer; background:url(../images/btns.png) 0 0 no-repeat; margin:15px auto 0;}
+input.moreBanks{ background:url(http://static.sdg-china.com/vgp/pic/web2//morebank.png) 0 0 no-repeat; width:436px; height:39px; }
+input.moreBanks:focus{outline:none}
+input.payBtn{ background-position:0 -116px;  margin:15px auto 0;}
+input.submitBtn{ background-position: 0 -177px; }
+input.continueBtn{ background-position:0 -237px}
+input.chargeBtn{ background-position:0 -537px}
+
+.t_blue{color:#538BC4}
+.t_orange{color:#FF7400}
+
+.icon-tips, .selectGame{background:#fff url(http://static.sdg-china.com/vgp/pic/web2//pay/sprites.gif) no-repeat 0 0;}
+
+.gamePay{position:relative;}
+.gamePay span{display:inline-block; font-size:12px; margin-right:6px; vertical-align:middle;}
+.gamePay span.gameShow{width:199px;}
+
+.selectGame{background-position:184px -70px;  border:1px solid #7F9DB9;  cursor:pointer;  display:block;  height:22px; line-height:22px; overflow:hidden;    padding-left:5px;  width:199px;}
+.selectGame img, .selectBox img{ vertical-align:middle;margin-right:4px;margin-top:-3px;*+margin-top:0;}
+.selectGame img{_margin-top:2px;}
+
+.jumplist  { border:1px solid #7f9db9; width:234px; height:262px;position:absolute; top:23px; left:0; background:#fff;z-index:100; display:none}
+.iframe_ie6{ top:0;left:0px;position:absolute; width:100%; height:100%;z-index:-1; background:#fff;}
+.selectBox { margin-left:5px; padding-top:3px; overflow-y:auto; height:252px}
+.selectBox { scrollbar-face-color:#f6f6f6; scrollbar-highlight-color:#fff; scrollbar-shadow-color:#eeeeee; scrollbar-3dlight-color:#eeeeee; scrollbar-arrow-color:#1E81CD; scrollbar-track-color:#fff; scrollbar-darkshadow-color:#fff; }
+.selectBox::-webkit-scrollbar{ width:10px; height:6px;}
+.selectBox::-webkit-scrollbar-track-piece{background-color:#C9C9C9; -webkit-border-radius: 10px;}
+.selectBox::-webkit-scrollbar-thumb:vertical{height:5px; background-color:#3572C3; -webkit-border-radius: 6px;}
+.selectBox::-webkit-scrollbar-thumb:horizontal{ width:5px; background-color: #CCCCCC; -webkit-border-radius: 6px;}
+
+.selectBox span{ width:100px; margin:8px 5px 0 0 ;float:left; height:20px; line-height:20px; overflow:hidden; font-size:12px; cursor:pointer}
+.selectBox span.bg{ background:#f0f0f0;}
+.border-1{ width:204px; margin-top:-1px;height:1px; overflow:hidden; background:#fff;zoom:1}

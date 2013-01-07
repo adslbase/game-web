@@ -1,0 +1,91 @@
+#warp{padding-top:10px;}
+
+.in_title{float:left;width:50px;}
+.in_title input{float:left;}
+#newGame{margin-top:10px;}
+#ng_title{height:27px;line-height:27px;}
+.ngt_left,.ngt_right{width:5px;height:27px;}
+.ngt_left{float:left;background:url(../images/new_game_left.jpg) no-repeat;}
+.ngt_right{float:right;background:url(../images/new_game_right.jpg) no-repeat;}
+#ng_title h2{float:left;width:234px;height:27px;background:#dadada;display:block;font-size:12px;font-weight:normal;color:#D57300;}
+.tbline td{border-bottom:2px dotted #ccc;}
+#ng_cont{border-right:1px solid #ccc;border-left:1px solid #ccc;padding-bottom:10px;}
+#ng_cont a{color:#FF7B6B;font-weight:bold;}
+#ng_cont a:hover{text-decoration:underline;}
+#server{border-left:1px solid #ccc;border-right:1px solid #ccc;background:url(../images/server_bg.jpg) no-repeat 1px center;width:240px;height:76px;padding:0px 1px;}
+#server dl{padding:5px 0px 0px 77px;}
+#server dl dt{font-weight:bold;font-size:16px;line-height:1.6em;}
+#server dl dd{line-height:1.6em;}
+#userPact{border-left:1px solid #ccc;border-right:1px solid #ccc;padding:10px 0px;}
+#up_title{background:#9cc;height:20px;line-height:20px;text-indent:1em;}
+#up_title h2,#gt_title h2{font-size:12px;font-weight:normal;color:#366;}
+#up_cont{padding-top:.5em;}
+#up_cont ul li{border-bottom:1px dotted #ccc;line-height:2em;text-indent:1em;}
+#up_cont ul li a:hover{color:red;}
+#gameTips{border:1px solid #ccc;border-top:none;background:#eee;padding-bottom:15px;}
+#gt_title{height:20px;line-height:20px;background:#B2CCC7;text-indent:1em;}
+#gt_cont{margin:0px 3px;background:url(../images/tg_bottom.jpg) no-repeat center bottom #fefff8;padding:10px 32px 10px 32px;}
+#gt_cont dd{line-height:1.8em;width:80px;display:block;float:left;text-align:center;color: #2E2EB2 ;}#gt_cont dl{width:168px;}
+#gt_cont ul{margin-top:10px;}
+#gt_cont ul li{display:block;width:168px;height:25px;line-height:25px;background:url(../images/gt_button.jpg) no-repeat;text-indent:2em;margin-bottom:5px;}
+#gt_cont img{width:159px;height:40px;overflow:hidden;margin-left:4px;}
+#news{height:250px;}
+#news_banner{float:left;width:488px;height:248px;overflow:hidden;border:1px solid #000;background:#000;}
+#news_list{float:left;background:url(../images/news_bg.jpg) repeat-x center bottom #4e0c1e;border:3px solid #000;border-left:none;}
+#nl_title{height:24px;line-height:24px;background:url(../images/news_title.jpg) no-repeat;}
+#nl_title h2{display:none;}
+#news_cont{width:221px;height:238px;border:3px solid #333;overflow:hidden;}
+#nl_cont li{background:url(../images/arrow.png) no-repeat 4px center;text-indent:1.5em;line-height:2.2em;border-bottom:1px dashed #aa322f;}
+#nl_cont li a{color:#fff;}
+#nl_cont li span{float:right;*margin-top:-2.2em;color:#A09F9F;padding-right:5px;}
+/*Games list style*/
+#gameList_cont{padding-top:10px;}
+.game_col{float:left;padding:0 10px 10px 0;border-right:2px dotted #ccc;}
+.gc_cont{width:349px;height:235px;overflow:hidden;background:url(../images/col_bg.jpg) no-repeat;}
+.g_col{padding:0px;padding-left:10px;border:none;}
+.game_pic{float:left;width:145px;overflow:hidden;}
+.game_pic img{display:inline;vertical-align:bottom;}
+.game_inf{float:left;width:175px;height:217px;background:url(../images/game_inf_bg.jpg) no-repeat;overflow:hidden;padding:0 10px;margin-top: 10px;}
+.gi_text{height:183px;overflow:hidden;}
+.gi_text dl dt span{font-size:32px;font-family:Verdana;color:#fc9;}
+.gi_text dl dt a{font-size:24px;color:#9cc;}
+.gi_text .bl{font-size:14px;color:#333;font-weight:bold;border-bottom:1px dashed #ccc;}
+.gi_text .bl span{text-shadow:1px 1px #ccc;}
+.gi_text dl dd{line-height:1.8em;}
+.gi_text ul{border-top:1px dotted #ccc;padding-top:5px;}
+.gi_text ul li{display:inline;}
+.gi_text ul li a{padding:0px .4em;}
+.gi_button a{float:left;display:inline-block;width:82px;height:23px;text-indent:1em;line-height:23px;color:#fff;margin-top:5px;}
+.gib01{background:url(../images/gib01.jpg) no-repeat;margin-right:10px;}
+.gib02{background:url(../images/gib02.jpg) no-repeat;}
+
+
+/*Flinks style*/
+#flink{width:946px;height:50px;margin:20px auto;line-height:50px;background:url(../images/flink_bg.jpg) repeat-x;border:1px solid #ccc;padding:0px 16px;}
+#flink dt,#flink dd{display:inline;color:#4fa8c0;}
+#flink dd a{padding:0px 1em;color:#4fa8c0;}
+
+
+/* qqshop focus */
+#focus {width:488px;height:248px;overflow:hidden;position:relative;}
+#focus ul {height:380px;position:absolute;}
+#focus ul li {float:left;width:488px;height:248px;overflow:hidden;position:relative;background:#000;}
+#focus ul li div {position:absolute;overflow:hidden;}
+#focus .btnBg {position:absolute;width:800px;height:20px;left:0;bottom:0;background:#000;}
+#focus .btn {position:absolute;width:780px;height:10px;padding:5px 10px;right:0;bottom:0;text-align:right;}
+#focus .btn span {display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+#focus .btn span.on {background:#fff;}
+#focus .preNext {width:45px;height:100px;position:absolute;top:80px;background:url(../images/sprite.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0;background-position:right top;}
+
+
+
+.gi_text dl dt span.gtitle{ color: #9cc; font-size: 24px; font-weight: bold}
+a.link_1 {
+background: url(http://static.sdg-china.com/vgp/pic/web2/reg0.png) 0 0 no-repeat; text-indent: -9999px; margin-right: 10px;
+}
+a.link_2 {
+background: url(http://static.sdg-china.com/vgp/pic/web2/enter0.png) 0 0 no-repeat;text-indent: -9999px;
+}
+.gi_text li{ padding:0 5px; }

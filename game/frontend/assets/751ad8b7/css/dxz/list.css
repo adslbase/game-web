@@ -1,0 +1,6 @@
+/*页码开始*/
+.yiiPager{padding:10px 0px 10px 0px;text-align:center;}
+.yiiPager{}
+.yiiPager li{display:inline!important;border:none!important;background:none!important;}
+.yiiPager li a{padding:0 9px;font-size:12px;font-family:"SimSun";color:#dfeac2;border:1px solid #5c9842;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) 0 -519px repeat-x;text-decoration:none;overflow:hidden;height:21px;display:inline-block;line-height:21px;}
+.yiiPager .selected a{background:none;border:none;color:#e6492a;font-weight:bold;}

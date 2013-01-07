@@ -1,0 +1,118 @@
+<?php
+
+        /**
+         * This is the model class for table "{{menu}}".
+         *
+         * The followings are the available columns in table '{{menu}}':
+         * @property integer $menu_id
+         * @property string $menu_name
+         * @property string $menu_description
+         * @property integer $lang
+         */
+        class Menu extends CActiveRecord
+        {
+
+                /**
+                 * Returns the static model of the specified AR class.
+                 * @return Menu the static model class
+                 */
+                public static function model($className = __CLASS__)
+                {
+                        return parent::model($className);
+                }
+
+                /**
+                 * @return string the associated database table name
+                 */
+                public function tableName()
+                {
+                        return '{{menu}}';
+                }
+
+                /**
+                 * @return array validation rules for model attributes.
+                 */
+                public function rules()
+                {
+                        // NOTE: you should only define rules for those attributes that
+                        // will receive user inputs.
+                        return array(
+                                    array('menu_name, menu_description', 'required'),
+                                    array('menu_name, menu_description', 'length', 'max' => 255),
+                                    // The following rule is used by search().
+                                    // Please remove those attributes that should not be searched.
+                                    array('menu_id, menu_name, menu_description', 'safe', 'on' => 'search'),
+                        );
+                }
+
+                /**
+                 * @return array relational rules.
+                 */
+                public function relations()
+                {
+                        // NOTE: you may need to adjust the relation name and the related
+                        // class name for the relations automatically generated below.
+                        return array();
+                }
+
+                /**
+                 * @return array customized attribute labels (name=>label)
+                 */
+                public function attributeLabels()
+                {
+                        return array(
+                                    'menu_id' => t('菜单ID'),
+                                    'menu_name' => t('菜单名'),
+                                    'menu_description' => t('说明'),
+                        );
+                }
+
+                protected function afterDelete()
+                {
+                        MenuItem::model()->deleteAll('menu_id = :id', array(':id' => $this->menu_id));
+                }
+
+                /**
+                 * Retrieves a list of models based on the current search/filter conditions.
+                 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+                 */
+                public function search()
+                {
+                        // Warning: Please modify the following code to remove attributes that
+                        // should not be searched.
+
+                        $criteria = new CDbCriteria;
+
+                        $criteria->compare('menu_id', $this->menu_id);
+                        $criteria->compare('menu_name', $this->menu_name, true);
+                        $criteria->compare('menu_description', $this->menu_description, true);
+
+                        $sort = new CSort;
+                        $sort->attributes = array(
+                                    'menu_id',
+                        );
+                        $sort->defaultOrder = 'menu_id DESC';
+
+
+                        return new CActiveDataProvider($this, array(
+                                                    'criteria' => $criteria,
+                                                    'sort' => $sort
+                                        ));
+                }
+
+                public static function getMenu()
+                {
+                        $menus = Menu::model()->findAll();
+                        $data = array(0 => t("无"));
+                        if ($menus && count($menus) > 0)
+                        {
+                                foreach ($menus as $t)
+                                {
+                                        $data[$t->menu_id] = $t->menu_name;
+                                }
+                        }
+
+                        return $data;
+                }
+
+        }

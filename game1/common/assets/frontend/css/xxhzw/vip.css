@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, 
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+} 
+
+
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1{ font-size:14px; }
+
+em{font-size:14px;color:red;font-weight:bold;}
+a{ color:#865b02; text-decoration: none }
+a:hover { color:#cf3001;}
+
+BODY {BACKGROUND-COLOR:#fdea97; MARGIN: 0px auto;  border:0;FONT: 14px/1.8 Arial, Helvetica, sans-serif; font-size:14px; color:#865b02; BACKGROUND:url(vip/repbg.jpg)}
+#background{min-height:819px; BACKGROUND:url(vip/bg.jpg) no-repeat center top; height:auto !important;  border:0; }
+#pagepage{width:1002px;  height:auto !important;  MARGIN: 0px auto;   }
+.toppic{width:501px; float:left}
+.nav{width:1002px; height:163px;BACKGROUND:url(vip/vipnav.jpg) no-repeat center top; float:left}
+.nav01{ width:180px; height:81px; display:block; margin-left:46px;_margin-left:23px;float:left}
+.nav01:hover{BACKGROUND:url(vip/vipnav_click.jpg) -46px 0px;isplay:block;}
+.nav02{width:180px; height:81px; display:block;margin-left:1px;_margin-left:1px; float:left}
+.nav02:hover{BACKGROUND:url(vip/vipnav_click.jpg) -227px 0px;}
+.nav03{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav03:hover{BACKGROUND:url(vip/vipnav_click.jpg) -408px 0px;}
+.nav04{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav04:hover{BACKGROUND:url(vip/vipnav_click.jpg) -589px 0px;}
+.nav05{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav05:hover{BACKGROUND:url(vip/vipnav_click.jpg) -770px 0px;}
+.nav06{width:180px; height:81px; display:block;margin-left:46px;_margin-left:23px; float:left}
+.nav06:hover{BACKGROUND:url(vip/vipnav_click.jpg) -46px -81px;}
+.nav07{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav07:hover{BACKGROUND:url(vip/vipnav_click.jpg) -227px -81px;}
+.nav08{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav08:hover{BACKGROUND:url(vip/vipnav_click.jpg) -408px -81px;}
+.nav09{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav09:hover{BACKGROUND:url(vip/vipnav_click.jpg) -589px -81px;}
+.nav10{width:180px; height:81px; display:block;margin-left:1px; float:left}
+.nav10:hover{BACKGROUND:url(vip/vipnav_click.jpg) -770px -81px;}
+.Table{ float:left;  MARGIN: 0px auto; width:1002px;}
+.Table p{ color:#c73400; font-size:14px;  padding-left:66px; padding-right:60px; line-height:25px}
+table{border-collapse:collapse; font-size:14px; }
+table p{ font-weight:300;font-size:14px; }
+table td{font-size:14px; 
+	border:1px solid #d4b57a;
+	color:#865b02;
+	font-weight: bold;
+}
+.tablebiaoge{ text-align:center; background-color:#fcf1bd; border-collapse:collapse; font-size:14px;}
+.tablebiaoge02{ text-align:center; background-color:#fcf1bd;}
+.vip02{ border:0px }
+.vip02 table{border-collapse:collapse; font-size:14px; border:0px  }
+.vip02 table td{font-size:14px; border:0px }
+.btnpay{ width:204px; height:66px; display:block;BACKGROUND:url(vip/btn_pay.gif) no-repeat center top; margin-top:100px; margin-left:50px; position:absolute}
+.btnpay:hover{ width:204px; height:66px; display:block; BACKGROUND:url(vip/btn_pay_click.gif) no-repeat center top;  }
+.btnhome{ width:128px; height:50px; display:block;BACKGROUND:url(vip/btn_home.gif) no-repeat center top;  margin-top:116px; margin-left:270px;position:absolute !important;}
+.btnhome:hover{ width:128px; height:50px; display:block; BACKGROUND:url(vip/btn_home_click.gif) no-repeat center top;}
+.foot{ width:1002px; height:180px; BACKGROUND:url(vip/foot.jpg) no-repeat center top; float:left;}
+.foot p{ font-size:12px; color:#88775f; line-height:10px; text-align:center; padding-top:20px}
+.toppic03{ width:501px; height:197px;  BACKGROUND:url(vip/pic03.jpg) no-repeat center top; float:left;}
+

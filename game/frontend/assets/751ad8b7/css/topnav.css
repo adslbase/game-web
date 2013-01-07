@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding: 0; }
+body { font-size:12px; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, th, var { font-style:normal; font-weight:normal; }
+ol, ul { list-style:none; }
+caption, th { text-align:left; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+q:before, q:after { content:''; }
+abbr, acronym { border:0; }
+a, a:link { color:#000; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.clear { height: 1px; background-color: transparent; overflow: hidden; clear: both; }
+.clearfix:after { content:"."; display: block; clear: both; visibility: hidden; line-height:0; height:0 }
+.clearfix { display:block }
+html[xmlns] .clearfix { display: block }
+* html .clearfix { height: 1% }
+input, button, select, textarea { outline:none }
+textarea { resize:none; }
+/*--End Global resets--*/
+
+body { background:url(http://static.sdg-china.com/vgp/pic/web2/frame/top_repeat.png) 0 0 repeat-x}
+.topbar_wrap { color:#535353; height:30px; line-height:30px; margin:0 auto; overflow:hidden; width:1000px; }
+.right_top { float: right; height: 20px; line-height: 16px; margin-top: 7px; overflow: hidden; width: 110px; }
+.right_top2{width: 200px;  }
+.right_top a:link, .right_top a:visited{color:#6f6f6f; float:left;}
+.right_top a:hover{ text-decoration:none}
+.right_top2 span{float:left;}
+.lz_pay a{ background:url(http://static.sdg-china.com/vgp/pic/web2/pay.png) 0 -1px no-repeat; width:41px; height:16px; overflow:hidden; text-indent:-9999px; display:block;}
+.lz_pay{ display:inline-block; margin-right:10px;}
+.lz_fav, .lz_hid,.lz_fullsc{display:inline-block; margin-right:10px;background:url(http://static.sdg-china.com/vgp/pic/web2/frame/ico_2.png) no-repeat; padding-left:15px;color:#6f6f6f; cursor:pointer; text-shadow:1px 1px 0 rgba(254,255,255,0.9)}
+.lz_fav{ background-position:0 -86px }
+.lz_hid{ background-position:0 -24px }
+.lz_fullsc{background-position:0 2px }
+
+.lz_right{ float:right; color:#6F6F6F; line-height:28px; height:28px;text-shadow:1px 1px 0 rgba(254,255,255,0.9); font-family:\5b8b\4f53}
+.lz_right a{ color:#6f6f6f; margin:0 5px}
+.lz_right { margin-right:35px; height:28px;display:inline}
+.add_fav{ display:inline-block; margin-left:5px; vertical-align:middle; width:105px; height:26px; background:url(http://static.sdg-china.com/vgp/pic/web2/frame/add_btn.png) no-repeat; cursor:pointer}
+
+.logo{float:left;width:76px; height:26px; overflow:hidden;}
+.logo a{display:block; float:left; overflow:hidden; text-indent:-9999px; background:url(../images/top_logo.png) 0 0 no-repeat; width:76px; height:26px;}
+
+.mid_info{ margin-left:15px; color:#6D6E6F;text-shadow:1px 1px 0 rgba(254,255,255,0.9);}
+.mid_info a{ color:#535353; margin-left:15px}
+.mid_info strong{ margin-left:10px; color:#6D6E6F}
+.mid_info em{ color:#ff5710}

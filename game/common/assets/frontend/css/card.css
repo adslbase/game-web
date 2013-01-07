@@ -1,0 +1,78 @@
+#warp{ margin-top: 10px}
+.clearfix:before,.clearfix:after{content:'\0020';display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.fr{display:inline;float:right!important;}
+.fl{display:inline;float:left!important;}
+.show{display:block;}
+.hide{display:none;}
+.visible{overflow:visible!important;}
+.highlight{color:#F30!important;}
+.important{font-weight:bold!important;}
+.center{text-align:center!important;}
+.left{text-align:left!important;}
+.right{text-align:right!important;}
+.J_box{overflow:hidden;}
+p.indent{text-indent:2em;}
+.ml10{margin-left:10px;}
+.mr10{margin-right:10px;}
+.mb10{margin-bottom:10px;}
+.blank5,
+.blank8,
+.blank10{clear:both;overflow:hidden;}
+.blank5{height:5px;}
+.blank8{height:8px;}
+.blank10{height:10px;}
+
+.in_title{float:left;width:50px;}
+.in_title input{float:left;}
+#newGame{margin-top:10px;}
+#ng_title{height:27px;line-height:27px;}
+.ngt_left,.ngt_right{width:5px;height:27px;}
+.ngt_left{float:left;background:url(../images/new_game_left.jpg) no-repeat;}
+.ngt_right{float:right;background:url(../images/new_game_right.jpg) no-repeat;}
+#ng_title h2{float:left;width:234px;height:27px;background:#dadada;display:block;font-size:12px;font-weight:normal;color:#D57300;}
+.tbline td{border-bottom:2px dotted #ccc;}
+#ng_cont{border-right:1px solid #ccc;border-left:1px solid #ccc;border-bottom:1px solid #ccc;padding-bottom:10px;}
+#ng_cont a{color:#FF7B6B;font-weight:bold;}
+#ng_cont a:hover{text-decoration:underline;}
+
+.games-nav{ background:url(http://img3.yxtq.yy.com/images/bg_nav_search.png) repeat-x bottom; border:solid 1px #EAEAEA; border-bottom:none; height:36px; padding:0 10px; margin-bottom:8px ;overflow: hidden;}
+.games-nav .title{ display:block;float:left; margin-right:80px}
+.games-nav .title h1 ,.games-nav .title h2{ background:#fff; border:solid 1px #EAEAEA; border-bottom:none;  border-top:none;padding:0 10px; line-height:36px; height:36px; float:left; display:block; font-size:14px;}
+.games-nav .title span{ float:left; display:block; margin:5px 0 0 8px; height:22px;line-height:10; overflow:hidden;}
+.games-nav .title .vip{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -40px; width:95px; }
+.games-nav .title .yu{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -62px; width:55px; }
+.games-nav .title .fa{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -84px; width:55px; }
+.games-nav .title .tao{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -106px; width:55px; }
+.games-nav .title .chou{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -128px; width:55px; }
+.games-nav .title .fa-end{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -150px; width:69px; }
+.games-nav .title .tao-end{ background:url(http://img3.yxtq.yy.com/images/game_title.png) no-repeat 0 -172px; width:69px; }
+.games-nav ul{ float:left;}
+.games-nav ul li{ float:left; line-height:34px; margin:0 12px;display:block;}
+.games-nav ul li a{ font-size:14px; color:#015F99}
+.games-nav ul li a:hover,.games-nav ul li a.red { color:#f00;}
+.games-nav .title{ display:block;float:left; margin-right:24px; }
+
+
+
+
+
+
+.gmne-rank { border:solid 1px #CCCCCC;margin:10px 0; overflow:hidden;}
+.gmne-rank .hd{overflow:hidden;padding:0 10px;height:32px;line-height:28px;background:url(http://img3.yxtq.yy.com/images/bgs_title.png) no-repeat 0 -32px;position:relative; }
+.gmne-rank .hd h3{float:left;margin-right:10px; font-size:14px;font: bold 14px/29px "微软雅黑","黑体";color:#333;}
+.gmne-rank .hd a.more{float:right;color:#0175b7;}
+.gmne-rank .hd{ background:url(http://img1.yxtq.yy.com/images/bg_new_tt.png) repeat-x; height:29px; line-height:29px; overflow:hidden; border-bottom:solid 1px #CCCCCC; }
+.gmne-rank .bd{padding:10px;overflow:hidden; line-height: 30px; } 
+
+#number .bd{ margin-left: 220px; padding:20px 10px }
+
+#number .ling {
+margin: 5px 0px 0px  45px; width: 91px; height: 42px; cursor: pointer; text-indent: -9999px;
+overflow: hidden;  float: left;
+background: url(../images/btn_fa.png) no-repeat 0px 0px; border: none;
+}
+
+.submit span{ line-height:52px; margin-left: 10px;  color: red; float: left;}

@@ -1,0 +1,20 @@
+#reg_warp{background:#dadada;padding:4px;margin:20px 0px;}
+#reg_cont{background:#F1F1F1;padding:4px;}
+#reg_title{height:22px;line-height:22px;background:url(../images/reg_title.jpg) no-repeat left center #938F8A;}
+#reg_title h2{font-size:12px;color:#fff;text-indent:3em;}
+#reg_tips{height:70px;vertical-align:middle;border-bottom:1px solid #DAD8D7;text-align:center;position:relative;}
+#reg_tips p{position:absolute;top:40%;left:25%;margin:0px auto;}
+#regBasis,#reg_id{width:735px;padding:10px 0px;margin:0px auto;}
+#regBasis p,#reg_id p{margin-left:214px;width:400px;background:#ffc;display:block;height:24px;line-height:24px;border:1px solid #ccc;padding:0px 1em;}
+
+
+.regt{height:28px;line-height:28px;vertical-align:middle;margin-bottom:10px;}
+.regt input{float:left;width:204px;height:26px;line-height:26px;overflow:hidden;border:none;border:1px solid #ccc;background:url(../images/reg_in_bg.jpg) no-repeat;text-indent:.5em;}
+.regt span{float:left;width:200px;height:28px;display:block;text-align:right;padding-right:1em;font-size:14px;}
+.regt span b{color:#F60;margin:0px .5em;}
+
+
+#reg_button{width:305px;margin:0px auto;text-align:left;vertical-align:middle;}
+.rg_btn{width:179px;height:47px;border:none;background:url(../images/regbutton.jpg) no-repeat;cursor:pointer;margin-bottom:10px;}
+
+

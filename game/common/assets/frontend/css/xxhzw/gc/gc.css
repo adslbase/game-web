@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, 
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, dl, dt, dd, ol,  fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font: 14px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+} 
+
+
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+
+
+
+table{MARGIN: 0px auto; }
+BODY {BACKGROUND-COLOR:#1a0603; MARGIN: 0px auto;  border:0;FONT: 14px/1.8 Arial, Helvetica, sans-serif; font-size:14px; color:#4d2e06;}
+#background{min-height:868px; BACKGROUND:url(bg.jpg) no-repeat center top; height:auto !important;  border:0; }
+#pagepage{width:1002px;  height:auto !important;  MARGIN: 0px auto;}
+.indexbg{width:1002px;height:700px; BACKGROUND:url(pic02.jpg) no-repeat center top;}
+#pic01{width:1002px; height:168px; BACKGROUND:url(pic01.jpg) no-repeat center top; }
+#foot{height:156px; BACKGROUND:url(foot.jpg) no-repeat center top; MARGIN: 0px auto;}
+.foot_con{width:1002px;height:156px;MARGIN: 0px auto;}
+
+
+/*二级页*/
+#background_two{min-height:868px; BACKGROUND:url(bg_two.jpg) no-repeat center top; height:auto !important;  border:0; }
+
+.picbg{width:501px;height:344px; float:left;overflow:hidden ;}
+.con_page{width:899px;float:left; margin-left:51px; _margin-left:26px; }
+.con_pagerep{width:899px;BACKGROUND:url(rep.jpg) repeat-y center top;float:left;min-height:368px;LINE-HEIGHT:22px ;}
+.con_pagerep P{LINE-HEIGHT: 22px}
+.con_pagerep SPAN {LINE-HEIGHT: 23px;  FONT-WEIGHT: bold; }
+.con_foot{width:899px; height:26px;BACKGROUND:url(con_foot.jpg) no-repeat center top;float:left;}
+.titbg{width:285px; height:51px;BACKGROUND:url(titbg.jpg) no-repeat left top;}
+
+.tablebiaoge {
+	BORDER-BOTTOM: #89612c 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #89612c 1px solid; BACKGROUND-COLOR: #bd8c4c; BORDER-COLLAPSE: collapse; FONT-SIZE: 14px; BORDER-TOP: #b89e63 1px solid; BORDER-RIGHT: #89612c 1px solid
+}
+.tablebiaoge02 {
+	BORDER-BOTTOM: #89612c 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #b89e63 1px solid; BACKGROUND-COLOR: #e3cdb2; BORDER-TOP: #89612c 1px solid; BORDER-RIGHT: #89612c 1px solid
+}
+.kong{float:left; height:127px; overflow:hidden}
+
+
+
+.foot{ width:899px; height:156px; BACKGROUND:url(vip/foot.jpg) no-repeat center top; float:left;}
+.foot p{ font-size:12px; color:#666; line-height:10px; text-align:center; padding-top:20px}

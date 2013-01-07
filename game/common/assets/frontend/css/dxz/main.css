@@ -1,0 +1,629 @@
+@charset "utf-8";/* 大侠传官网页面  2012-06-18 */
+/* layout元素 */
+body{font-size:12px;text-align:left;padding:0;margin:0px;background:#F8FBE8;font-family:Arial;}
+img{border:0px;}
+.clear{clear:both;font-size:0px;padding:0px;margin:0px;height:0px;line-height:0px;}
+div,ul,ol,li,dl,dd,form,p,h1,h2,h3{padding:0;margin:0px;border:0px;}
+ul{list-style:none;}
+a{text-decoration:none;color:#205E1F;}
+a:hover{text-decoration:underline;}
+.TopCiteBar{padding:0;text-align:center;background:#fff;height:41px;}
+.wp{width:982px;overflow:hidden;margin:0px auto;}
+.text_td{display:block;overflow:hidden;white-space:nowrap;}
+.blue{color:blue;font-family:Verdana;}
+.nr{margin:0px!important;}
+.nb{background:none!important;}
+#top{height:30px;line-height:30px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/top_bg.jpg) repeat-x #fff;}
+#top_logo{float:left;width:82px;height:21px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/top_logo.jpg) no-repeat;text-indent:82px;margin:4px 45px 0px 0px;}
+#top_cont dl{float:left;width:370px;}
+#top_cont ul{float:right;}
+#top_cont ul li{float:left;}
+#top_cont li a{color:#666;margin:0px 1em;text-shadow:1px 1px #ccc;}
+.tli1,.tli2,.tli3,.tli4{background-position:left;background-repeat:no-repeat;text-indent:1.5em;}
+.tli1{background-image:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/tli01.png)}
+.tli2{background-image:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/tli02.png);}
+.tli3{background-image:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/tli02-03.png);}
+.tli4{background-image:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/tli04.png);}
+/*统一头部*/
+/*顶部布局元素*/
+.pgbgs{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/bgs.jpg) no-repeat center 0px;}
+.pgbgs .wrap{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/bgs.jpg) no-repeat center 0px;}
+.wrap{padding:0;margin:0px auto;width:980px;}
+/*头部框架*/
+.Headerbar{position:relative;height:359px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/bgs_top_01.jpg) no-repeat center 0px;}
+.Headerbar .adbannerPost{position:absolute;z-index:113;left:237px;top:194px;width:510px;}
+.Headerbar .LogoPost{position:absolute;z-index:999;left:390px;top:2px;width:215px;height:115px;}
+.Headerbar .LogoPost a{display:block;width:215px;height:115px;font-size:0px;line-height:333px;overflow:hidden;}
+.Headerbar .XiarenPost{position:absolute;z-index:999;left:448px;top:127px;width:100px;height:30px;}
+.Headerbar .XiarenPost a{display:block;width:93px;height:23px;font-size:0px;line-height:333px;overflow:hidden;}
+.Headerbar .JiangPost{position:absolute;z-index:3;left:0px;top:303px;width:215px; display:none; }
+.Headerbar .AgePost{position:absolute;z-index:963;left:3px;top:341px;width:175px;color:#fff;}
+.Headerbar .baiduSharePost{position:absolute;z-index:913;left:229px;top:334px;width:510px;}
+.Headerbar .baiduSharePost .bds_fx{ display:block; float:left; height:16px; padding-top:8px;	}
+
+/*内容框架*/
+.NrkuangBar{padding:0px 0px 18px 0px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/bgs_top_02.jpg) no-repeat center top;height:1%;}
+.side_LtBar{width:215px;float:left;margin:0px 15px 0px 0px;}
+.side_RtBar{width:750px;float:left;margin:0px 0px 0px 0px; overflow:hidden; }
+/*尾部区*/
+.FootBar{text-align:center;background:#DDE3C7 url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/foot_bg.jpg) repeat-x 0px 0px;}
+.footGroup{width:980px;color:#2F5627;margin:0 auto;padding:0px 0px 20px 0px;background:#DDE3C7 url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/foot_bg.jpg) repeat-x 0px 0px;}
+.footGroup .guanyu{padding:12px 0px 12px 0px;color:#014218;font-weight:bold;}
+.footGroup .guanyu a{padding:0px 10px 0px 10px;color:#014218;}
+.footGroup .dizhi{padding:12px 0px 16px 0px;}
+.footGroup .shidang{color:#DD1110;}
+.footGroup .logoqu{padding:24px 0px 8px 0px;height:50px;text-align:center;}
+.footGroup .logoqu a{display:inline-block;margin:0px 12px;height:50px;font-size:0px;line-height:120px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/logo_he.jpg) no-repeat 0px 0px;overflow:hidden;}
+.footGroup .logoqu .logozi_uuzu{width:115px;background-position:0px 0px;}
+.footGroup .logoqu .logozi_36{width:105px;background-position:-152px 0px;}
+.footGroup .logoqu .logozi_10{width:90px;background-position:-300px 0px;}
+.footGroup .logoqu .logozi_72{width:96px;background-position:-434px 0px;}
+.footGroup .logoqu .logozi_1dai{width:103px;background-position:-569px 0px;}
+.footGroup .logoqu .logozi_djj{width:92px;background-position:-718px 0px;}
+.footGroup .logoqu .logozi_dxz{width:93px;background-position:-845px 0px;}
+.footGroup .keyou{padding:12px 0px 0px 0px;}
+.footGroup .keyou .kenum{padding:0px 16px 0px 0px;}
+.footGroup .gsname{padding:8px 0px 0px 0px;}
+.footGroup .beianhao{padding:8px 0px 0px 0px;}
+.footGroup a{color:#2F5627;}
+/* 导航栏元素 */
+.NavBar{position:absolute;z-index:900;left:0px;top:0px;}
+.navs1ji{padding:24px 0px 0px 0px;}
+.navs1ji li{float:left;width:114px;display:inline;}
+.navs1ji li .nbts{padding:0px 0px 3px 0px;}
+.navs1ji li .nbts a{display:block;width:105px;height:52px;line-height:133px;overflow:hidden;}
+.navs1ji li .nbts a:hover,.navs1ji li .nbts .current{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/navsbg.jpg) no-repeat;}
+.navs1ji li .ls a{display:block;width:105px;text-align:center;font-size:12px;line-height:20px;color:#0E562E;font-family:"微软雅黑";}
+.navs1ji .nahome{margin:0px 5px 0px 0px;}
+.navs1ji .nahome .nbts a:hover,.navs1ji .nahome .nbts .current{background-position:0px 0px;}
+.navs1ji .naxinwen{margin:0px 0px 0px 6px;}
+.navs1ji .naxinwen .nbts a:hover,.navs1ji .naxinwen .nbts .current{background-position:-125px 0px;}
+.navs1ji .naziliao{margin:0px 253px 0px 14px;}
+.navs1ji .naziliao .nbts a:hover,.navs1ji .naziliao .nbts .current{background-position:-253px 0px;}
+.navs1ji .napay{margin:0px 0px 0px 12px;}
+.navs1ji .napay .nbts a:hover,.navs1ji .napay .nbts .current{background-position:-632px 0px;}
+.navs1ji .nakefu{margin:0px 0px 0px 10px;}
+.navs1ji .nakefu .nbts a:hover,.navs1ji .nakefu .nbts .current{background-position:-756px 0px;}
+.navs1ji .nabbs{width:95px;margin:0px 0px 0px 15px;}
+.navs1ji .nabbs .nbts a{width:95px;}
+.navs1ji .nabbs .nbts a:hover,.navs1ji .nabbs .nbts .current{background-position:-885px 0px;}
+/*==首页左部区===*/
+/*公同引用部分样式*/
+.guguqu{padding:0;}
+.guguqu p{margin:0px 0px 10px 0px;}
+.Login_bar,.TuijGroup,.TeseBox,.PlayerGroup,.VoteGroup,.hotushow,.ShipinZu,.PaihangGroup,.WeiboGroup,.gameglGroup,.yxzlbGroup{margin-bottom:10px;}
+.xbox_nei_1,.xbox_nei_2{border:1px solid #DEE5C4;border-top:0px solid #CFBB9A;background:#F8F8EC;}
+.xbox_end{height:2px;background:#E8EDD9;font-size:0px;line-height:0px;}
+.mores{position:absolute;z-index:3;right:15px;top:13px;width:26px;height:14px;line-height:14px;padding-right:11px;color:#567B4F;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat right -312px;}
+.xbox_bts_lt{height:34px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) repeat-x 0px 0px;padding:0px;border:1px solid #DEE5C4;position:relative;}
+.xbox_bts_lt h3{height:34px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_sybts.jpg) no-repeat;font-size:0px;line-height:80px;overflow:hidden;margin:0;}
+.xbox_bts_lt h3.bt_01{background-position:0px 0px;}
+.xbox_bts_lt h3.bt_02{background-position:0px -40px;}
+.xbox_bts_lt h3.bt_03{background-position:0px -80px;}
+.xbox_bts_lt h3.bt_04{background-position:0px -120px;}
+.xbox_bts_lt h3.bt_05{background-position:0px -160px;}
+.xbox_bts_lt h3.bt_06{background-position:0px -200px;}
+.xbox_bts_lt h3.bt_07{background-position:0px -240px;}
+.xbox_bts_lt h3.bt_08{background-position:0px -280px;}
+.xbox_bts_lt h3.bt_09{background-position:0px -320px;}
+.xbox_bts_lt h3.bt_10{background-position:0px -360px;}
+.xbox_bts_lt h3.bt_11{background-position:0px -400px;}
+/*开始游戏动画*/
+.KsGroup{height:110px;}
+/*登录区*/
+.Login_bar .lg_dl .btn_dl,.TuijGroup .tj_gd a,.btn_ksyx{display:block;border:none;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_dlji.png) no-repeat 0px 0px;font-size:0px;line-height:222px;overflow:hidden;}
+.Login_bar{background:#000;padding:0px 1px 1px 1px;color:#107438;}
+.Login_bar .Login_bgqu{background:#0F2910;border:1px solid #4B3B2C;border-top:0px solid #4B3B2C;}
+.Login_bar .userin_dengluQu{padding:15px 1px 0px 1px;}
+.Login_bar .lg_srqu{padding:2px 0px 0px 0px;position:relative;}
+.Login_bar .lg_srqu .nor{width:117px;padding:0px 5px;height:25px;line-height:25px;border:1px solid #0E0A01;color:#261D14;vertical-align:middle;font-family:Arial;background:#9DAF99;}
+.Login_bar .lg_srzh{padding:7px 0px 8px 7px;*padding:5px 0px 7px 7px;}
+.Login_bar .lg_srmm{padding:0px 0px 0px 7px;}
+.Login_bar .lg_dl{position:absolute;z-index:980;width:61px;height:62px;right:6px;top:9px;}
+.Login_bar .lg_dl .btn_dl{width:61px;height:63px;background-position:0px -270px;}
+.Login_bar .lg_dl a:hover.btn_dl{background-position:-71px -270px;}
+.Login_bar .lg_ts{padding:13px 0px 0px 28px;}
+.Login_bar .lg_ts .jzyhm{padding:0px 8px 0px 0px;}
+.Login_bar .lg_ts .wjmms{color:#51B078;margin:0px 0px 0px 7px;text-decoration:underline;}
+.Login_bar .fill_duoxuan{position:absolute;z-index:1300;left:6px;top:80px;}
+.Login_bar .notes_txt{position:absolute;z-index:1200;left:-2px;padding:0px 10px;width:193px;color:#60CD35;line-height:26px;background:#08662D;}
+.Login_bar .notes_txt .jt{position:absolute;z-index:9;left:11px;font-size:25px;color:#08662D;font-family:Arial,Helvetica,sans-serif;}
+.Login_bar .warn_account{top:-23px;}
+.Login_bar .warn_account .jt{bottom:-11px;}
+.Login_bar .warn_password{top:78px;z-index:1500;}
+.Login_bar .warn_password .jt{top:-15px;}
+.Login_bar .warn_auto{top:107px;padding:8px 10px 7px 10px;height:90px;}
+.Login_bar .warn_auto .jt{top:-15px;}
+.Login_bar .lgtu_fshi{padding:15px 0px 0px 10px;}
+.Login_bar .lgtu_fshi .fss{padding:0px 2px 0px 0px;}
+.Login_bar .lgtu_fshi a{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/snstu/icon_openid.png) no-repeat;height:22px;width:22px;display:inline-block;margin:0 4px 0 3px;font-size:0px;line-height:88px;vertical-align:middle;overflow:hidden;}
+.Login_bar .lgtu_fshi a.wc_sina{background-position:0 0}
+.Login_bar .lgtu_fshi a.wc_qq{background-position:-25px 0}
+.Login_bar .lgtu_fshi a.wc_17173{background-position:-50px 0}
+.Login_bar .lgtu_fshi a.wc_taobao{background-position:-75px 0}
+.Login_bar .lgtu_fshi a.wc_renren{background-position:-100px 0}
+.Zcczqu{overflow:hidden;}
+.zczu_1{margin:21px 0px 0px 0px;height:42px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_kxyx.jpg) no-repeat 0px -180px;}
+.zczu_2{margin:16px 0px 0px 0px;height:42px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_kxyx.jpg) no-repeat 0px -89px;}
+.Zcczqu a{float:left;height:42px;line-height:150px;overflow:hidden;font-size:0px;width:90px;}
+.Zcczqu .btn_zc,.Zcczqu .btn_zx{margin:0 6px 0 10px;}
+.Zcczqu a:hover.btn_zc{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_kxyx.jpg) no-repeat -10px -225px;}
+.Zcczqu a:hover.btn_zx{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_kxyx.jpg) no-repeat -10px -135px;}
+.Zcczqu a:hover.btn_cz{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_kxyx.jpg) no-repeat -106px -135px;}
+.Login_bar .userin_xinxiQu{padding:10px 1px 0px 1px;line-height:24px;color:#BED48C;}
+.Login_bar .userin_xinxiQu .user_nm{padding:0px 8px 0px 0px;font-weight:bold;color:#F59C00;font-size:14px;}
+.Login_bar .userin_xinxiQu .btn_zhux{float:right;color:#BED38B;text-decoration:underline;}
+.Login_bar .userin_xinxiQu .user_ha1{padding:4px 7px 0px 7px;}
+.Login_bar .userin_xinxiQu .user_ha2{padding:9px 0px 0px 7px;}
+.Login_bar .userin_xinxiQu .user_ha2 a{color:#EA522B;}
+.Login_bar .userin_xinxiQu .user_ha3{padding:9px 0px 0px 7px;}
+.Login_bar .userin_xinxiQu .user_ha3 .u_qu{color:#EA522B;}
+#last_server a{color:#EA522B;}
+.Login_bar .userin_xinxiQu .user_btn1{padding:12px 0px 0px 12px;}
+.Login_bar .userin_xinxiQu .u_qu{color:#358C2D;}
+.Login_bar .userin_xinxiQu .u_more{color:#BED48C;padding-left:5px;}
+.Login_bar .btn_ksyx{background-position:0px -44px;width:188px;height:39px;}
+.Login_bar a:hover.btn_ksyx{background-position:0px 1px;width:188px;height:39px;}
+.Login_bar .userin_xinxiQu a{text-decoration:underline;}
+.Login_bar a{}
+/*推荐服务器区*/
+.TuijGroup{}
+.TuijGroup .xbox_nei_1{ height:1%;}
+.TuijGroup .tj_lis{padding:11px 14px 11px 14px;}
+.TuijGroup .tj_lis p{padding:2px 5px 2px 0px;border-bottom:1px dashed #C5D4B7;line-height:20px;}
+.TuijGroup .tj_lis a{color:#405E44;}
+.TuijGroup .tj_lis .zt_a{padding:2px 0px 3px 26px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 1px -46px;}
+.TuijGroup .tj_lis .zt_b{padding:2px 0px 3px 26px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 1px -77px;}
+.TuijGroup .tj_lis .tuijz{float:right;}
+.TuijGroup .tj_lis .tuijz a{padding:5px 0px 0px 0px;color:#C73208;}
+.TuijGroup .tj_gd{padding:2px 4px 0px 0px;background:#F8F8EC;margin-top:-1px;text-align:center;}
+.TuijGroup .tj_gd a{width:170px;height:26px;margin:0px auto;background-position:0px -340px;}
+.TuijGroup .tj_wh{padding:9px 12px 5px 0px;text-align:center;color:#8B9B54;}
+.TuijGroup .tj_wh .ws{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0px -117px;padding-left:14px;}
+/*游戏特色区*/
+.TeseBox{}
+.TeseBox .Tesenr{padding:13px 0px 10px 4px;color:#205E1D;text-align:center;line-height:28px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_dlji.png) no-repeat 2px -370px;}
+.TeseBox .Tesenr .js{}
+.TeseBox .Tesenr a{color:#205E1D;}
+/*侧边游戏资料*/
+.yxzlbGroup{}
+.yxzlbGroup .xbox_nei_1{padding:10px 0px 7px 4px;}
+.yxzlbGroup h2{height:50px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_nyyxbt.jpg) no-repeat;padding:0px 10px 0px 5px;}
+.yxzlbGroup h2.bts1{background-position:0px 0px;}
+.yxzlbGroup h2.bts2{background-position:0px -50px;}
+.yxzlbGroup h2.bts3{background-position:0px -100px;}
+.yxzlbGroup h2.bts4{background-position:0px -150px;}
+.yxzlbGroup h2 .zlbtzi a{font-weight:bold;font-size:12px;color:#205D1C;padding:26px 0px 4px 60px;display:block;}
+.yxzlbGroup .yxzlis{width:168px;overflow:hidden;padding:0px 0px 1px 12px;}
+.yxzlbGroup .yxzlis li{float:left;width:84px;}
+.yxzlbGroup .yxzlis li a{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0px -616px;line-height:25px;padding-left:10px;}
+/*媒体投票区*/
+.VoteGroup{}
+.VoteGroup .kuangs{padding:18px 0px 8px 11px;}
+.FahaoBox .vtlies{}
+.VoteGroup .vtlies li{float:left;width:96px;text-align:center;font-family:"宋体";padding-bottom:10px;}
+.VoteGroup .vtlies li .fahao_tu{}
+.VoteGroup .vtlies li .fahao_txt{padding:3px 0px 0px 0px;}
+.VoteGroup .vtlies li .fahao_txt a{color:#205E1F;}
+/*玩家交流群*/
+.PlayerGroup{}
+.PlayerGroup .xbox_nei_1{padding:9px 0px 5px 14px;color:#205E1D;}
+.PlayerGroup .qqqun{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0px -152px;padding:5px 5px 4px 24px;}
+/*客户服务区*/
+.ServiceGroup{padding:0px 0px 0px 0px;}
+.ServiceGroup .tops{height:80px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_dlji.png) no-repeat 0px -536px;}
+.ServiceGroup .tops .kftel{padding:45px 0px 0px 66px;font-size:14px;font-weight:bold;color:#2A631C;font-family:Arial,Helvetica,sans-serif;}
+.ServiceGroup .Sernrs{padding:4px 10px 5px 2px;color:#849B6D;line-height:22px;}
+.ServiceGroup .Sernrs a{color:#849B6D;}
+/*首页右部区*/
+/*右侧上面框架*/
+.hmnrGroup_1{margin-bottom:6px;}
+.hmnrGroup_1 .htside_rt1{width:382px;float:left;margin:0px 0px 0px 0px;}
+.hmnrGroup_1 .htside_rt2{width:368px;float:left;}
+/*大眼睛广告区*/
+.dyjGroup{padding:0;position:relative;}
+.dyjGroup .dyj_pics{}
+.dyjGroup .dyj_pics img{border:2px solid #053609;}
+.dyjGroup .dyj_numqu{position:absolute;z-index:993;right:5px;bottom:10px;width:124px;}
+.dyjGroup .dyj_numqu a{margin:0px 3px 0px 4px;text-align:center;height:17px;width:17px;line-height:17px;display:block;float:left;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0px -254px;color:#dcd1bf;text-decoration:none;overflow:hidden;}
+.dyjGroup .dyj_numqu .on,.dyjGroup .dyj_numqu a:hover{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat -23px -254px;}
+/*新闻消息区导航*/
+.hmNewsBar{padding:0px 1px 1px 0px;background:#04340A;color:#BDA88D;border-bottom:1px solid #2F261F;}
+.hmNewsBar .nxNrshowGroup{padding:9px 0px 0px 0px;height:177px;background:#04340A;border-left:1px solid #352C23;border-right:1px solid #352C23;border-bottom:1px solid #352C23;}
+.nxMenuGroup{padding:0px 0px 0px 1px;}
+.nxMenuZu{height:41px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprites_nas.jpg) no-repeat 0px -41px;}
+.nxMenuZu li{float:left;height:41px;display:inline;}
+.nxMenuZu li a{display:block;width:72px;height:41px;font-size:0px;line-height:103px;overflow:hidden;}
+.nxMenuZu .mu_rd{margin-right:3px;background-position:0px -41px;}
+.nxMenuZu .current .mu_rd{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprites_nas.jpg) no-repeat;background-position:0px 0px;}
+.nxMenuZu .mu_xw{width:73px;margin-right:2px;background-position:-75px -41px;}
+.nxMenuZu .current .mu_xw{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprites_nas.jpg) no-repeat;background-position:0px 0px;}
+.nxMenuZu .mu_hd{margin-right:2px;background-position:-150px -41px;}
+.nxMenuZu .current .mu_hd{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprites_nas.jpg) no-repeat;background-position:-150px 0px;}
+.nxMenuZu .mu_gg{width:71px;margin-right:2px;background-position:-226px -41px;}
+.nxMenuZu .current .mu_gg{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprites_nas.jpg) no-repeat;background-position:-226px 0px;}
+.nxMenuZu .mu_mt{width:69px;background-position:-297px -41px;}
+.nxMenuZu .current .mu_mt{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprites_nas.jpg) no-repeat;background-position:-297px 0px;}
+.nxTuchubgGroup{background:#07460D;border:1px solid #0D250D;height:68px;padding:0px 10px 2px 89px;margin:0px 10px 0px 11px;position:relative;}
+.nxTuchubgGroup .nxta_bts{padding:8px 0px 0px 0px;font-weight:bold;}
+.nxTuchubgGroup .nxta_bts a{color:#FFBC03;}
+.nxTuchubgGroup .nxta_pic{position:absolute;z-index:993;left:8px;top:7px;width:72px;}
+.nxTuchubgGroup .nxta_txt{padding:2px 0px 0px 6px;line-height:22px;}
+.nxListGroup{padding:4px 8px 0px 16px;}
+.nxListGroup p{padding:0px 6px 0px 8px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat -3px -278px;line-height:23px;border-bottom:1px dashed #0D3C12;}
+.nxListGroup p.no_line_b{border-bottom:none;}
+.nxListGroup .leis{font-family:"宋体";}
+.nxListGroup .zw{}
+.nxListGroup .date{float:right;color:#3E5F42;font-size:12px;font-family:Arial;}
+.hmNewsBar a{color:#7FA56C;}
+/*四组广告*/
+.hotushow{padding:5px 0px 2px 0px;background:#E9EFCB;color:#BDA88D;border:1px solid #CCDA9F;text-align:center;}
+.hotushow a{margin:0px 3px 0px 3px;*margin:0px 2px 0px 0px;}
+/*右侧两列框架*/
+.hmRtnrBar{color:#634D42;}
+.hmRtnrBar .hmRtnrside_a{width:544px;float:left;margin:0px 16px 0px 0px;}
+.hmRtnrBar .hmRtnrside_b{width:190px;float:left;}
+/*健康游戏公告区*/
+.HealthGroup{width:190px;height:153px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_dlji.png) no-repeat -1px -668px;}
+/*排行榜区组*/
+.PaihangGroup{}
+.PaihangGroup .Rpaihang_Nrzu{padding:0px 0px 0px 0px;color:#453526;}
+.PaihangGroup .paifuQu{padding:6px 0px 6px 0px;text-align:center;}
+.PaihangGroup .paifuQu select{background:#F3F5EA;border:1px solid #BDC699;padding:0px;color:#5D6045;}
+.PaihangGroup .paifuQu .paifu_qi{width:110px;}
+.PaihangGroup .paifuQu .paifu_lev{margin:0px 0px 0px 1px;}
+.PaihangGroup .jiaohangQu{padding:0px 1px 0px 1px;}
+.PaihangGroup .Phangbiao{text-align:center;width:100%;color:#1F5E18;}
+.PaihangGroup .Phangbiao .hangs{height:28px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_dlji.png) repeat-x 0px -632px;}
+.PaihangGroup .Phangbiao th{border-top:1px solid #C9D3A1;border-bottom:1px solid #C9D3A1;}
+.PaihangGroup .Phangbiao th.lie1{border-left:1px solid #C9D3A1;}
+.PaihangGroup .Phangbiao th.lie3{border-right:1px solid #C9D3A1;color:#1F5E18;}
+.PaihangGroup .Phangbiao td{padding-top:3px;padding-bottom:3px;}
+.PaihangGroup .Phangbiao .lie1{width:40px;}
+.PaihangGroup .Phangbiao .lie2{width:89px;}
+.PaihangGroup .Phangbiao .lie3{width:38px;color:#68854B;}
+.PaihangGroup .Phangbiao td.lie1{}
+.PaihangGroup .Phangbiao td.lie2{text-align:left;padding-left:6px;padding-right:6px;}
+.PaihangGroup .Phangbiao .hang_1 td{padding-top:11px;}
+.PaihangGroup .Phangbiao .hang_10 td{padding-bottom:8px;}
+.PaihangGroup .Phangbiao em{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat;width:19px;height:18px;line-height:18px;color:#fff;display:inline-block;text-align:center;font-style:normal;}
+.PaihangGroup .Phangbiao em.num_1{background-position:0 -349px;}
+.PaihangGroup .Phangbiao em.num_2{background-position:0 -374px;}
+.PaihangGroup .Phangbiao em.num_3{background-position:0 -374px;}
+/*关注微博区组*/
+.WeiboGroup{}
+.WeiboGroup .xbox_nei_1{padding:11px 0px 0px 17px;}
+.WeiboGroup .wtu_ys_qq{padding:0px 0px 4px 0px;}
+.WeiboGroup .wtu_ys_sina{padding:0px 0px 6px 0px;}
+/*首页中间区*/
+/*游戏资料*/
+.ZiliaoGroup{padding:0px 0px 0px 0px;margin-bottom:12px;}
+.ziliao_nrbiao{width:100%;color:#69854B;}
+.ziliao_nrbiao td{background:#F8F9EB;border-top:1px solid #FEFED3;border-right:1px solid #D6DA9D;border-bottom:1px solid #D6DA9D;border-left:1px solid #FEFED3;}
+.ziliao_qu_2 .ziliao_nrbiao td{background:#F5F4DF;}
+.ziliao_nrbiao .lie1{border-left:1px solid #CBD5A3;text-align:center;width:98px;padding:3px 0;}
+.ziliao_nrbiao .lie2{padding:9px 3px 8px 3px;text-align:center;width:75px;font-weight:bold;}
+.ziliao_nrbiao .lie2 a{color:#0F692D;}
+.ziliao_nrbiao .lie3{padding:9px 3px 8px 8px;}
+.ziliao_nrbiao .lie3 a{padding:0px 8px 0px 5px;color:#69854B;}
+/*游戏攻略组*/
+.gameglGroup{}
+.gameglsmGroup{background:#F8F8EC;border:1px solid #C4D19C;border-top:none;padding:10px 19px 9px 19px;}
+.yxglMenuGroup{border-bottom:1px solid #C4D19C;position:relative;height:25px;margin:0px 0px;}
+.yxglMenuZu{position:absolute;left:0px;top:0px;}
+.yxglMenuZu li{float:left;margin-right:6px;}
+.yxglMenuZu li a{display:block;border:1px solid #C4D19C;padding:0px 11px 0px 10px;height:24px;line-height:24px;color:#2F5627;font-weight:bold;float:left;background:#E2E9C7;}
+.yxglMenuZu li a.on{color:#E83806;background:#F8F8EC;border-bottom:1px solid #F4F5E3;}
+.gamegl_nrzu{padding:0px 0px 0px 0px;position:relative;}
+.gamegl_nrzu .gamegl_pics{position:absolute;z-index:3;left:0px;top:13px;width:155px;}
+.gamegl_nrzu .gamegl_nrzi{padding:10px 15px 0px 0px;line-height:25px;color:#69854B;height:128px;}
+.gamegl_nrzu .gamegl_nrzi .leis{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0px -415px;padding:0px 8px 0px 9px;}
+.gamegl_nrzu .gamegl_nrzi a{padding:0px 3px;color:#69854B;}
+/*游戏截图*/
+.tukuGroup{padding:0px 0px 0px 0px;margin:0px 0px 24px 0px;}
+.jietuulbox{padding:12px 0px 0px 25px;position:relative;height:1%;}
+.jietuulbox ul{display:inline;}
+.jietuulbox li{margin:0px 8px 0px 8px;_margin:0px 4px 0px 7px;float:left;width:148px;}
+.jietuulbox .jietu_tu{padding:5px 0px 10px 0px;width:153px;}
+.jietuulbox .jietu_txt{text-align:center;}
+.jietuulbox .jietu_txt a{}
+.zhishi_leftqu,.zhishi_rightqu{position:absolute;z-index:3999;top:52px;width:32px;height:35px;}
+.zhishi_leftqu{left:-2px;}
+.zhishi_rightqu{right:1px;_right:-3px;}
+.zhishi_leftqu a,.zhishi_rightqu a{display:block;width:32px;height:35px;font-size:0px;line-height:99px;overflow:hidden;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat;}
+.zhishi_leftqu a{background-position:6px -203px;}
+.zhishi_rightqu a{background-position:-20px -203px;}
+/*百科*/
+.BaikeGroup{}
+.BaikeGroup .xbox_bts_lt{background:none;border:none;margin-bottom:1px;}
+.BaikeMenuGroup{border:1px solid #C4D19C;position:relative;height:34px;margin:0px 0;}
+.bkMenuZu{position:absolute;left:0px;top:-1px;}
+.bkMenuZu li{float:left;}
+.bkMenuZu li a{display:block;border:1px solid #C4D19C;border-left:0px solid #C4D19C;padding:0px 10px;height:34px;line-height:34px;color:#2F5627;font-weight:bold;float:left;background:#E9EDD4;}
+.bkMenuZu li a.on{color:#E83806;background:#f8f9ec;border-bottom:1px solid #F4F5E3;}
+.BaikeGroup .yingyongQu{border:1px solid #C4D19C;border-top:none;border-top:none;background:#f8f9ec;width:542px;height:201px;overflow:hidden;}
+/*内页框架*/
+.NeikuangBar{background:#f8f8ec;border:1px solid #dee5c4;border-top:none;min-height:1250px;_height:1250px;padding:28px 39px 20px 39px;}
+.pages_server,.pages_media,.pages_xsk{}
+.pages_tuku{}
+.pages_gamenr{}
+.pages_newsnr{}
+/*路径*/
+.PathQu{position:relative;zoom:1;height:36px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/breadcurms_bg.gif) no-repeat;}
+.PathQu .shuo_tu{padding:2px 0 0 6px;}
+.PathQu .shuo_tu span{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_ptitle.png) 0 0 no-repeat;display:inline-block;width:171px;height:32px;line-height:100px;overflow:hidden;}
+.PathQu .shuo_tu span.t_serverList{background-position:0 0;}
+.PathQu .shuo_tu span.t_media{background-position:0 -32px;}
+.PathQu .shuo_tu span.t_newcard{background-position:0 -64px;}
+.PathQu .shuo_tu span.t_news{background-position:0 -97px;}
+.PathQu .shuo_tu span.t_gongju{background-position:0 -128px;}
+.PathQu .shuo_tu span.t_gonglv{background-position:0 -160px;}
+.PathQu .shuo_tu span.t_tuku{background-position:0 -192px;}
+.PathQu .shuo_tu span.t_ziliao{background-position:0 -224px;}
+.PathQu .shuo_lu{position:absolute;z-index:3;right:12px;top:11px;width:400px;text-align:right;color:#2f7616;}
+.PathQu .shuo_lu a{color:#2f7616;padding:0 2px;}
+.PathQu .shuo_lu .cur{color:#8fbd74;padding:0 0 0 4px;}
+/**服务区列表页**/
+.server_list{}
+.ser_sort{color:#466c41;height:25px;line-height:25px;text-align:center;}
+.ser_sort span{padding-left:28px;display:inline-block;margin-right:15px;}
+.ser_sort span,.ser_box .ser_list li a,.fast_into .input_fast_into,.fast_into .btn_fast_into,.ser_tabs .ser_tab_title li{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) no-repeat;}
+.ser_sort span.sort1{background-position:0 -241px;}
+.ser_sort span.sort2{background-position:0 -328px;}
+.ser_sort span.sort3{background-position:0 -299px;}
+.ser_sort span.sort4{background-position:0 -270px;}
+.ser_box{margin-bottom:5px;}
+.ser_box .ser_title{margin-bottom:13px;color:#12480a;font-size:14px;font-weight:bold;border-bottom:1px dashed #bcc794;padding-bottom:11px;position:relative;zoom:1;}
+.ser_box .ser_list{float:left;}
+.ser_box .ser_list li{width:205px;float:left;display:inline;padding:0 10px 14px 6px;}
+.ser_box .ser_list li .qu_name{font-weight:bold;padding:0 8px;}
+.ser_box .ser_list li a{display:inline-block;width:171px;height:36px;line-height:36px;padding-left:34px;color:#466c41;font-family:SimSun;}
+.ser_box .ser_list li a:hover{text-decoration:none;}
+.ser_box .ser_list li a.s1{background-position:0 0;}
+.ser_box .ser_list li a.s2{background-position:0 -40px;color:#9aa18f;}
+.ser_box .ser_list li a.s3{background-position:0 -80px;}
+.ser_box .ser_list li a.s4{background-position:0 -120px;color:#f1dfbf;}
+.ser_box .ser_list li a.s5{background-position:0 -160px;color:#f4ece1;}
+.ser_box .ser_list li a.s6{background-position:0 -200px;color:#466c41;}
+.fast_into{float:right;display:inline-block;font-weight:normal;font-size:14px;position:absolute;right:0;bottom:4px;color:#12480a;}
+.fast_into .input_fast_into{background-position:0 -441px;width:100px;height:25px;line-height:25px;border:none;padding:0 7px 0 5px;text-align:left;color:#a0b49d;font-size:12px;margin:0 10px;overflow:hidden;font-size:14px;}
+.fast_into .btn_fast_into{background-position:0 -471px;width:85px;height:29px;line-height:25px;border:none;cursor:pointer;color:#466c41;font-weight:bold;font-size:14px;}
+.ser_tabs{}
+.ser_tabs .ser_tab_title{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/wdaohang_bg.jpg) 0 36px repeat-x;height:37px;margin-bottom:16px;padding-left:32px;}
+.ser_tabs .ser_tab_title li{float:left;display:inline-block;width:100px;height:37px;background-position:0 -399px;margin-right:1px;}
+.ser_tabs .ser_tab_title li.current{float:left;display:inline;width:100px;height:37px;background-position:0 -357px;}
+.ser_tabs .ser_tab_title li a{display:inline-block;width:100px;height:37px;line-height:37px;color:#382b17;font-size:14px;text-align:center;font-family:SimSun;}
+.ser_tabs .ser_tab_title li.current a{color:#d92d00;font-weight:bold;}
+.ser_tabs .ser_tab_title li a:hover{text-decoration:none;}
+/**新手卡领取页**/
+.pages_xsk{color:#245118;}
+.xsk_bts,.xsk_lie_bts{margin:0 0px 10px 0px;font-size:16px;font-weight:bold;border-bottom:1px solid #358023;color:#235118;position:relative;height:1%;}
+.xsk_lie_bts{border-bottom:1px dashed #b3c6b0;}
+.xsk_bts span,.xsk_lie_bts span{border-bottom:1px solid #368024;display:inline-block;padding-bottom:5px;}
+.xsknrs{padding:0px;margin-bottom:40px;line-height:24px;}
+.xsk_sms{padding:0;}
+.xsk_sms li{padding:0px 6px 0px 20px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/icon_newcard.gif) no-repeat 0px 8px;line-height:24px;}
+.xsk_duiqu{padding:10px 0px 0px;font-size:14px;zoom:1;}
+.xsk_duiqu .xsk_dhs{font-weight:bold;line-height:28px;vertical-align:top;zoom:1;color:#e74a29;padding-right:13px;float:left;}
+.xsk_duiqu .xsk_fills{margin:0px -6px 0px 0px;vertical-align:middle;width:180px;padding:0px 5px;height:24px;line-height:24px;color:#14631c;border:1px solid #a1ae7d;float:left;}
+.xsk_duiqu .xsk_cp{padding:0;float:left;}
+.xsk_duiqu select{float:left;margin:5px 5px 0 0;}
+.xsk_duiqu .xsk_ljlqu{padding:0px 10px 0px 10px;float:left;}
+.xsk_yhd{padding:2px 0px 0px 0px;line-height:28px;vertical-align:top;zoom:1;text-decoration:underline;position:absolute;right:0;top:0;color:#14631c;font-size:12px;font-weight:normal;}
+.xsk_dnto{padding:9px 0px 0px 0px;color:#a6280d;}
+.xsk_lpic{padding:5px 0px 5px 17px;}
+.xsk_lie_bts{padding:3px 0 7px 30px;line-height:21px;position:relative;zoom:1;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0 -540px;}
+.xsk_lie_bts .lqk{position:absolute;z-index:3;right:0px;top:0px;width:130px;border:none;}
+.liqubox{padding:10px 30px 20px 30px;}
+.liqu_nrbiao{padding:0;border-left:1px solid #465a3e;border-top:1px solid #465a3e;text-align:center;width:100%;font-family:"SimSun";}
+.liqu_nrbiao th{padding:6px 0px;font-size:14px;font-weight:bold;color:#d3d886;background:#465a3e;border-right:1px solid #465a3e;border-bottom:1px solid #465a3e;}
+.liqu_nrbiao td{padding:5px;border-right:1px solid #465a3e;border-bottom:1px solid #465a3e;color:#215117;background:#e1e9c2;}
+.liqu_nrbiao .lie1{}
+.liqu_nrbiao .lie2{width:320px;font-weight:bold;font-size:13px;font-family:Arial,Helvetica,sans-serif;text-align:left;}
+.liqu_nrbiao .lie3{}
+.liqu_nrbiao .lie4{}
+.liqu_nrbiao .ha_2 td{background:#f8f5f0;}
+.liqu_nrbiao .sy_a{color:#215117;}
+/*页码开始
+.pagenumQu{padding:10px 0px 10px 0px;text-align:center;}
+.yiiPager{}
+.yiiPager li{display:inline;}
+.yiiPager .first,.yiiPager .previous,.yiiPager .next,.yiiPager .last{}
+.yiiPager a{padding:0 9px;margin:0px 3px 0px 3px;font-size:12px;font-family:"SimSun";color:#dfeac2;border:1px solid #5c9842;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) 0 -519px repeat-x;text-decoration:none;overflow:hidden;height:21px;display:inline-block;line-height:21px;}
+.yiiPager .selected a{background:none;border:none;color:#e6492a;font-weight:bold;}*/
+
+/*=弹出窗口=*/
+.pop_wrap{background:#f2f4df;position:relative;zoom:1;}
+.pop_close{position:absolute;right:4px;top:4px;}
+.pop_close a{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) -30px -675px no-repeat;display:inline-block;width:20px;height:0;padding-top:20px;overflow:hidden;}
+.pop_title_wrap{border:1px solid #1a432b;}
+.pop_title{height:24px;line-height:27px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/bg_pop_title.jpg) 0 0 no-repeat;border:1px solid #346a27;padding:3px 0 0 10px;}
+.pop_content{}
+/*图片弹窗*/
+.pop_tuku_bar{background:#001904;position:relative;zoom:1;padding-bottom:33px;color:#FFFFFF;border:1px solid #000;}
+.pop_tuku_bar .pt_close{position:absolute;z-index:3;right:-30px;top:-1px;width:30px;height:30px;}
+.pop_tuku_bar .pt_close a{display:block;width:30px;height:30px;line-height:136px;font-size:0px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat 0px -675px;overflow:hidden;}
+.pop_tuku_bar .pt_pics{}
+.pop_tuku_bar .pt_nms{font-size:14px;position:absolute;z-index:3;left:12px;bottom:7px;}
+.pop_tuku_bar .pt_lin{position:absolute;z-index:3;right:20px;bottom:7px;width:130px;text-align:right;}
+.pop_tuku_bar .pt_lin .ot_a a{padding:0px 14px 0px 11px;background:url(../images/dxgw/sprite_icon.png) no-repeat 0px -705px;border-right:1px solid #fff;}
+.pop_tuku_bar .pt_lin .ot_b a{padding:0px 13px 0px 14px;background:url(../images/dxgw/sprite_icon.png) no-repeat right -715px;}
+.pop_tuku_bar a{color:#FFFFFF;}
+/*服务器列表弹窗*/
+.pop_server{width:519px;}
+.pop_server_con{border:1px solid #bbc797;}
+.pop_server_con_tb{}
+.pop_server_con_bb{min-height:200px;_height:200px;padding:28px 21px 45px 29px;position:relative;zoom:1;}
+.pop_server .ser_sort{position:absolute;z-index:10;left:0;bottom:10px;width:517px;}
+.pop_server .ser_sort span{margin-right:10px;}
+/*视频弹窗*/
+.pop_vedio{width:600px;background:#001904;color:#fff;}
+.pop_vedio_con{padding:0;}
+.vedio_name{padding:7px 15px;font-size:14px;}
+/*提示信息弹窗*/
+.pop_prompt{width:350px;}
+.pop_prompt_con{border:1px solid #c5d09d;border-top:none;text-align:center;padding:30px 64px 17px 74px;font-size:14px;line-height:150%;color:#225218;}
+.pop_prompt_con .tantxt{text-align:left;}
+.pop_prompt_con a{color:#e74a29;text-decoration:underline;}
+.pop_prompt_con a.btn_sure{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) 0 -471px no-repeat;width:85px;height:29px;display:inline-block;line-height:30px;color:#277512;font-weight:bold;text-decoration:none;margin-top:20px;}
+/*登录弹窗*/
+.pop_login{width:450px;}
+.pop_login_con{border:1px solid #c5d09d;padding:20px 7px;}
+.toReg{border-top:1px dashed #c1c1c1;color:#235118;font-size:14px;font-weight:bold;text-align:center;padding-top:15px;margin-top:20px;}
+.toReg a{color:#0c7e00;text-decoration:underline;padding-left:15px;}
+.login_table{padding:0 30px;}
+.login_table th{font-size:14px;color:#235118;font-weight:bold;text-align:left;}
+.login_table td{color:#868686;}
+.prompt_tips{color:#ff4200;padding:3px 0 10px 0;display:inline-block;}
+.jiange{padding:0 0 20px 0;color:#868686;}
+.jiange span{padding:0 10px;display:inline-block;}
+.forget_pw{color:#0c7e00;text-decoration:underline;}
+.input_login_form{width:200px;height:23px;line-height:23px;border:1px solid #c5d09d;background:#fff;padding:0 3px;color:#0c7e00;}
+.btn_login{display:inline-block;width:130px;height:39px;line-height:100px;overflow:hidden;margin-top:0;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) 0 -633px no-repeat;float:left;}
+.btn_login:hover{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) 0 -672px no-repeat;}
+.login_ways{color:#23511a;padding-left:8px;}
+.login_dw,.login_sina{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) 0 0 no-repeat;width:26px;height:26px;line-height:100px;overflow:hidden;display:inline-block;margin:0 2px;margin-bottom:-5px;}
+.login_dw{background-position:0 -730px;}
+.login_sina{background-position:0 -756px;}
+.login_ways a,.login_ways span{display:inline-block;float:left;}
+.login_ways span{padding-top:5px;color:#244f1a;}
+/****合作媒体专区****/
+.media_area{margin-top:-28px;}
+.media_title{padding:12px 0 16px;}
+.media_list li{float:left;_display:inline;margin:0 12px 30px;}
+/* 内容2级导航标签 */
+.nav2jiBar .nav2jiQu li a,.nav2jiBar .nav2jiQu li .on{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) no-repeat;}
+.nav2jiBar{padding:0 0 0 10px;margin-top:3px;height:37px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/wdaohang_bg.jpg) repeat-x 0 36px;}
+.nav2jiBar .nav2jiQu li{float:left;}
+.nav2jiBar .nav2jiQu li a{margin:0 1px 0 0;display:block;width:100px;height:37px;line-height:37px;color:#235118;font-size:14px;text-align:center;text-decoration:none;font-weight:bold;background-position:0 -399px;overflow:hidden;}
+.nav2jiBar .nav2jiQu li .on{background-position:0 -357px;color:#e74a29;}
+/* 正文内容 */
+.nrzw_bar{padding:10px 0 0; }
+.nrzw_bar .nrzw_bts{padding:21px 0 11px;font-weight:bold;font-size:18px;color:#235118;text-align:center;font-family:"SimSun";}
+.nrzw_bar .nrzw_date{padding:1px 0;text-align:center;color:#6ea073;background:#dae4b5;line-height:24px;}
+.pages_gamenr .nrzw_bar .nrzw_date{background:none}
+.nrzw_bar .nrzw_date .fa_date{padding:0;}
+.nrzw_bar .nrzw_date .fa_fen{padding:0 0 0 20px;}
+.nrzw_bar .nrzw_date .share_icon{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/snstu/share_icon_sprite.gif) no-repeat;width:16px;height:24px;text-indent:-999em;overflow:hidden;display:inline-block;margin:0 2px -6px 2px;*margin-bottom:0;}
+.nrzw_bar .nrzw_date .icon_sina{background-position:0 0;}
+.nrzw_bar .nrzw_date .icon_renren{background-position:0 -24px;}
+.nrzw_bar .nrzw_date .icon_kaixin{background-position:0 -48px;}
+.nrzw_bar .nrzw_date .icon_qq{background-position:0 -72px;}
+.nrzw_bar .nrzw_date .icon_douban{background-position:0 -96px;}
+.nrzw_bar .nrzw_date .icon_qz{background-position:0 -120px;}
+.nrzw_bar .nrzw_txts{padding:10px 10px 20px;color:#235118;font-size:12px;line-height:26px;font-family:"SimSun"; }
+.nrzw_bar .nrzw_txts h2{font-size:14px;font-weight:bold;color:#e74a29;}
+.nrzw_bar .nrzw_txts .keynote{font-weight:bold;}
+.nrzw_bar .nrzw_txts a{color:#e74a29;text-decoration:underline;}
+.nrzw_bar .nrzw_txts .seotxt{color:#235118;text-decoration:underline;}
+.nrzw_bar .nrzw_txts .canyu{font-weight:700;color:#235118;text-decoration:none}
+/*正文表格*/
+.content_biao{margin:15px auto;border-right:1px solid #465b3d;}
+.content_biao th{padding:5px 10px;font-weight:bold;background:#465b3d;color:#d4d887;text-align:center;}
+.content_biao td{padding:2px 10px;font-size:12px;color:#453526;border:1px solid #465b3d;border-width:0 0 1px 1px;background:#f3f4e0;font-size:12px;}
+.content_biao .hang2 td{background:#e1e9c2;}
+.content_biao .lie1{width:142px;}
+.content_biao .lie2{width:175px;}
+.content_biao .lie3{width:127px;}
+/* 文章底部展示信息 */
+.ShowcyInfo{padding:10px 0;margin:0;color:#306917;}
+.ShowCyqu{padding:9px 0;border:1px dashed #b0bbb0;border-width:1px 0;height:100px;overflow:hidden}
+.ShowCyqu li{float:left;padding:10px 17px 0;line-height:24px;height:88px;}
+.ShowCyqu .ShowCy_1{width:130px;padding:5px 14px 0 17px;}
+.ShowCyqu .ShowCy_2{width:200px;padding-left:23px;border:1px dashed #CEC2A8;border-width:0 1px;}
+.ShowCyqu .ShowCy_3{width:190px;}
+.ShowCyqu .Showxx_logo{display:block;width:125px;height:55px;line-height:333px;font-size:0;overflow:hidden;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/daxia_logo.png) no-repeat;margin:15px 0 0}
+.ShowCyqu .Showxx_bt1,.ShowCyqu .Showxx_bt2,.ShowCyqu .Showxx_bt3{font-weight:bold;}
+.ShowCyqu .Showxx_txt{}
+.ShowCyqu a{text-decoration:underline;}
+/*相邻文章*/
+.nrzw_others{padding:14px 0 18px;color:#235118;}
+.nrzw_others .jianqu_a,.nrzw_others .jianqu_b{width:318px;height:15px;line-height:15px;overflow:hidden;float:left;}
+.nrzw_others .jianqu_a{text-align:right;border-right:1px solid #382B1B;padding-right:10px;}
+.nrzw_others a{color:#235118;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat;}
+.nrzw_others .jianqu_a a{padding:0 5px 0 10px;background-position:0 -442px;}
+.nrzw_others .jianqu_b a{padding:0 13px 0 10px;background-position:100% -455px;}
+/* 分享区-new */
+.fenxBox{padding:12px 0 24px;width:668px;color:#077c37;background:#fffee9;border:1px solid #c8e1c7;}
+.fenxBox .fenx_biaoqian{padding:10px 0 9px 60px;overflow:hidden;}
+.fenxBox .fenx_lsqu{margin:0 0 0 60px;width:550px;height:29px;position:relative;}
+.fenxBox .fenx_lsqu .fenx_lxtxt{padding:0 0 0 10px;height:27px;line-height:27px;width:448px;overflow:hidden;border:1px solid #bfc9a0;background:#d2dcb2;border-right:0}
+.fenxBox .fenx_lsqu .copytxt{position:absolute;z-index:3;right:0;top:0;width:99px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) no-repeat 0 -505px;}
+.fenxBox .fenx_lsqu .copytxt a{display:block;width:99px;height:29px;line-height:66px;overflow:hidden;font-size:0;}
+.fenxBox .fenx_txt{padding:5px 0 0;line-height:24px;}
+.fenxBox .fenx_txt img{vertical-align:top;}
+.fenxBox a{color:#463428;}
+/* 相关文章区两列*/
+.relevanceBox .rev_bts,.relevanceBox .rev_list li{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat;}
+.relevanceBox{padding:0;margin:28px 0 40px;}
+.relevanceBox .rev_bts{padding:0 5px 9px 19px;border-bottom:2px solid #235118;font-size:14px;font-weight:bold;background-position:0 -470px;font-family:"SimSun";color:#077c37;}
+.relevanceBox .date{padding:0;float:right;color:#235118;}
+.relevanceBox .more{float:right;font-weight:normal;font-size:12px;margin-top:3px;}
+.relevanceBox .rev_list{padding:12px 0 10px;}
+.relevanceBox .rev_list li{padding:0 10px 0 17px;background-position:0 -493px;line-height:26px;}
+.rev_guanyu{margin:0 34px 0 0;width:319px;float:left;}
+.rev_zuixin{width:315px;float:left;}
+.relevanceBox a{color:#235118;}
+/*新闻列表*/
+.NewslistZu{padding:10px 2px 20px 0;}
+.NewslistZu li{line-height:33px;font-size:14px;border-bottom:1px dotted #CDC5BA;}
+.NewslistZu .leis{padding:0 10px 0 3px;font-family:"SimSun";}
+.NewslistZu .leis a{color:#0f7437;}
+.NewslistZu .date{float:right;color:#258946;font-size:12px;}
+/* 图片列表 */
+.tuszu{padding:23px 0 0 2px;}
+.tuszu li{float:left;padding:0 11px 27px 11px;width:200px;}
+.tuszu .tupics{text-align:center;height:145px;text-align:center;}
+.tuszu .tuzis{padding:8px 0 0;text-align:center;font-family:"SimSun";height:15px;}
+.tuszu .tuzis a{color:#5c6b56}
+/*游戏资料导航组*/
+.GmnavBar{padding:8px 0 10px 16px;margin-bottom:-20px;background:#fafbea;border:1px solid #c5d09d;position:relative;zoom:1;}
+.GmnavBar .ltPost,.GmnavBar .lbPost,.GmnavBar .rtPost,.GmnavBar .rbPost{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_icon.png) no-repeat;position:absolute;z-index:455;width:10px;height:10px;font-size:0;overflow:hidden;}
+.GmnavBar .ltPost{left:-1px;top:-1px;background-position:0 -655px;}
+.GmnavBar .rtPost{right:-1px;top:-1px;background-position:-10px -655px;}
+.GmnavBar .lbPost{left:-1px;bottom:-1px;background-position:0 -665px;}
+.GmnavBar .rbPost{right:-1px;bottom:-1px;background-position:-10px -665px;}
+.GmnavBar a,.GmnavBar .on,.FeileiGroup .milds .on{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_server.gif) no-repeat;}
+.GmnavBar a{display:block;float:left;width:84px;height:36px;line-height:36px;color:#235118;font-size:14px;text-align:center;margin:4px 8px 5px 0;background-position:0 -534px;}
+.GmnavBar .on{color:#f8f9ec;background-position:0 -570px;}
+.FeileiGroup{}
+.FeileiGroup .tops,.FeileiGroup .ends{height:5px;overflow:hidden;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_wznr.png) no-repeat;}
+.FeileiGroup .tops{background-position:0 0;}
+.FeileiGroup .ends{background-position:0 -4px}
+.FeileiGroup .milds{padding:0 11px;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_wznr.png) repeat-y -679px 0;}
+.FeileiGroup .milds a{display:block;float:left;width:92px;height:27px;line-height:27px;text-align:center;margin:2px 0;text-decoration:none;color:#69854b;}
+.FeileiGroup .milds .on{color:#db3b09;background-position:0 -606px}
+/*游戏资料表格*/
+.gamezl_table{padding:0 0 20px;}
+.gamezl_tit{background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_games.png) repeat-x;height:37px;margin:9px 0 0;position:relative;border:1px solid #c5d09d;border-width:0 1px;z-index:1;}
+.gamezl_tit span{display:block;background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/sprite_games.png) no-repeat;height:46px;position:absolute;z-index:999;top:-9px;left:1px;width:130px;overflow:hidden;text-indent:-999px;}
+.gamezl_tit .tit_ccml{background-position:0 -37px;}
+.gamezl_tit .tit_jhml{background-position:0 -83px;}
+.gamezl_tit .tit_cdwl{background-position:0 -129px;}
+.gamezl_tit .tit_xqyz{background-position:0 -175px;}
+.gamezl_tab{border-left:1px solid #c5d09d;background:#f0f5de;}
+.gamezl_tab td{border:1px solid #c5d09d;border-width:0 1px 1px 0;line-height:34px;padding:0 5px;color:#69854b}
+.gamezl_tab td a{color:#69854b;margin:0 15px;}
+.gamezl_tab .tit_le{font-family:"楷体_GB2312";font-weight:700;text-align:center;font-size:14px;background:#ecf4d1;color:#4f6f3f;width:100px;}
+.gamezl_tab .tit_le a{color:#4f6f3f}
+
+
+/*友情链接区2012-08-01*/
+.YoulianGroup{}
+.YoulianGroup .xbox_bts_lt {  border-bottom:none;    }
+.YoulianGroup .xbox_nei_1{padding:9px 10px 5px 10px;color:#205E1D;}
+.YoulianGroup .lian_btQu {    }
+.YoulianGroup .lian_btQu li { float:left; }
+.YoulianGroup .lian_btQu a{display:block; float:left; font-size:0px; line-height:88px; height:34px; overflow:hidden; background:url(http://g.marstv.com/assets/751ad8b7/css/dxz/images/dxgw/youlian_dxz.jpg) no-repeat;  }
+.YoulianGroup .lian_btQu .ls_yq_off { width:95px;   background-position:0px 0px}
+.YoulianGroup .lian_btQu .ls_yq_on {  width:95px;  background-position:0px -40px}
+.YoulianGroup .lian_btQu .ls_mt_on { width:95px;   background-position:-95px 0px}
+.YoulianGroup .lian_btQu .ls_mt_off{ width:95px;   background-position:-95px -40px}
+.YoulianGroup .lian_nrQu { line-height:24px; }
+.YoulianGroup .lian_nrQu li{ }
+
+/*登陆后用户信息*/
+.login2{padding:0px 20px;}
+.login2 u{font-weight:bold;font-size:14px;}
+.login2 dt,.login2 dd{line-height:2em;}
+.login2 dd a{margin-right:1em;}

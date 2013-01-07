@@ -1,0 +1,14 @@
+#warp{background:#dadada;padding:5px;width:970px;overflow:hidden;margin:10px auto;}
+#pay_top{border:1px solid #C9C9C9;padding:10px;background:#F1F1F1;margin-bottom:10px;}
+#payt_cont{height:48px;background:url(../images/pay_t.jpg) no-repeat;}
+#pay_sider{float:left;width:230px;border:1px solid #c9c9c9;background:#f1f1f1;padding-top:9px;padding-bottom:45px;}
+#pays_title{height:25px;line-height:25px;background:#928b77;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;margin:0px 1px;}
+#pays_title h2{font-size:14px;color:#fff;text-indent:1em;}
+#pays_cont ul li{line-height:2.4em;border-bottom:1px dotted #ccc;background:url(../images/arrow.png) no-repeat 7px center;text-indent:1em;padding-left:14px;}
+#pays_cont ul li a:hover{text-decoration:underline;color:#C33;}
+.pays_btn{width:177px;height:45px;line-height:45px;text-align:center;margin:10px auto;display:block;border:1px solid #ccc;background:url(../images/pays_btm.jpg) no-repeat;}
+#pay_cont{float:right;background:#f1f1f1;border:1px solid  #ccc;width:728px;padding-bottom:45px;}
+#pay_cont dl{float:left;margin:15px;text-align:center;display:inline;}
+#pay_cont dl dt a{border:1px solid #ccc;display:block;padding:2px;}
+#pay_cont dl dd a{line-height:2em;}
+#pay_cont dl dt a:hover{border:1px solid #c00;}

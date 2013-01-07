@@ -1,0 +1,98 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0px;padding:0px;}
+ul,li,ol,dl,dt,dd{list-style:none;}img{border:none;}
+address, caption, cite, code, dfn, em, th, var {
+font-style: normal;
+font-weight: normal;
+}
+body{font:12px "Microsoft YaHei","SimSun","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;color:#646464;}
+a{color:#646464;text-decoration:none;}
+.wp{width:980px;overflow:hidden;margin:0px auto;}
+.red{color:red;}
+.cl{clear:both;}
+.yellow{color:#f60;}
+.blue{color:blue;font-family:Verdana;}
+#top_link{height:28px;line-height:28px;background:url(../images/top_link_bg.jpg) repeat-x;border-bottom:1px solid #fff;overflow:hidden;}
+#top_link_cont h2{float:left;font-size:12px;font-weight:normal;}
+#top_link_cont ul{float:right;}
+#top_link_cont ul li{float:left;margin-right:1em;display:block;}
+#top_link_cont ul li a:hover{color:#f60;}
+#banner_cont h1 a{display:block;width:162px;height:43px;background:url(../images/logo.png) no-repeat;overflow:hidden;text-indent:162px;white-space:nowrap;margin-top:18px;}
+#banner{height:83px;background:url(../images/banner_bg.jpg) repeat-x;}
+#main_nav{height:38px;background:url(../images/nav_bg.jpg) repeat-x;line-height:38px;border-bottom:7px solid #ee0c00;overflow:hidden;}
+#main_nav_cont ul{}
+#main_nav_cont li{float:left;background:url(../images/nav_line.jpg) no-repeat right center;display:block; padding:0 20px;}
+#main_nav_cont li a{color:#fff;font-weight:bold;font-size:14px;margin:0px 1em;text-shadow:1px 1px #333;}
+#main_nav_cont li a:hover{color:yellow;}
+.tli1,.tli2,.tli3,.tli4{background-position:left;background-repeat:no-repeat;text-indent:1.5em;}
+.tli1{background-image:url(../images/tli1.gif);}
+.tli2{background-image:url(../images/tli02.jpg);}
+.tli3{background-image:url(../images/tli03.jpg);}
+.tli4{background-image:url(../images/tli4.gif);}
+#footer{height:139px;background:url(../images/footer_bg.jpg) repeat-x;}
+#footer_cont{height:100px;padding:15px 0px;}
+#footer_logo{float:left;width:162px;height:43px;background:url(../images/logo.png) no-repeat;margin:24px 59px 33px 32px;display:inline;}
+#copyright{float:left;height:70px;background:url(../images/footer_line.jpg) no-repeat left center;padding:30px 0px 0px 33px;}
+#copyright ul{margin-left:-1em;}
+#copyright li{display:inline;padding:0px 1em;border-right:1px solid red;}
+#copyright li a{color:red;line-height:1em;}
+#copyright p{line-height:3em;font-family:Arial;}
+
+
+#sider{float:left;width:244px; overflow: hidden}
+#cont{float:right;width:720px; overflow: hidden}
+
+
+/*登陆*/
+#userLogin{width:232px;height:237px;overflow:hidden;background:url(../images/user_bg.jpg) no-repeat;padding:6px;}
+#ul_title{height:25px;line-height:25px;border-bottom:2px solid #c31c2d;background:url(../images/user_title_h2.jpg) no-repeat;overflow:hidden;}
+#ul_title h2{display:none;}
+#ul_cont{background:#fff;height:185px;padding:20px 12px 0; overflow: hidden}
+#ul_cont label{display:block;height:45px;line-height:22px;vertical-align:middle;}
+.user_in{border:1px solid #ccc;width:146px;height:25px;background:#f5f5f5;text-indent:.5em;}
+.user_d{margin-left:4em; height: 22px!important;}
+.user_d a{padding-left:2em;color:blue;}
+.user_d a:hover{color:red;}
+.user_d input{vertical-align:middle;margin-right:5px;}
+.user_button{margin-top:10px;}
+.user_button input,.user_button a{width:83px;height:40px;margin-left:1em;border:none;color:#fff;cursor:pointer; display: block;text-align: center; line-height: 40px;}
+.ub_login{background:url(../images/login_button.jpg) no-repeat;}
+.ub_reg{background:url(../images/reg_button.jpg) no-repeat; position: relative; top: -40px; left: 103px; }
+#ul_lin dl{line-height:1.6em;}
+#ullin_name{border-bottom:2px dashed #ccc;padding-bottom:5px;}
+#ullin_name dt{font-weight:bold;border-bottom:2px dashed #ccc;padding-bottom:5px;}
+#ullin_name dt span{color:#f00;}
+.ulin_btn1{width:67px;background:url(../images/btn1.png) no-repeat;}
+.ulin_btn2{width:57px;background:url(../images/btn2.png) no-repeat;}
+.ulin_btn3{width:57px;background:url(../images/btn3.png) no-repeat;}
+.ulin_btn1,.ulin_btn2,.ulin_btn3{text-align:center;height:19px;line-height:19px;color:#fff;display:inline-block;margin-right:5px;}
+#ullin_game{border-bottom:2px dashed #ccc;padding:5px 0px;}
+#ulive_game{padding-top:5px;}
+.errorMessage{ text-align: right; color: #c31c2d; }
+
+.mgAuto {
+margin-left: auto;
+margin-right: auto;
+}
+
+.mgT20 {
+margin-top: 20px;
+}
+
+.t_4 td p {
+line-height: 1.8;
+text-align: right;
+}
+
+.tR {
+text-align: right;
+}
+
+.fB {
+font-weight: bold;
+}
+
+.fL{float: left}
+.fR{float: right}
+.mgB15 {
+margin-bottom: 15px;
+}

@@ -1,0 +1,16 @@
+<?php 
+$this->pageTitle=t('修改菜单');
+$this->pageHint=t('修改菜单'); 
+?>
+<?php 
+$form_create_url=Yii::app()->controller->createUrl('bemenuitem/create',array('embed'=>'iframe','menu'=>$id));    
+$form_update_url=Yii::app()->controller->createUrl('bemenuitem/update',array('embed'=>'iframe','menu'=>$id));    
+$form_change_order_url=Yii::app()->controller->createUrl('bemenuitem/changeorder',array());    
+$form_delete_url=Yii::app()->controller->createUrl('bemenuitem/delete',array());  
+$this->widget('backwidgets.page.MenuUpdateWidget',array(
+    'form_create_term_url'=>$form_create_url,
+    'form_update_term_url'=>$form_update_url,
+    'form_delete_term_url'=>$form_delete_url,
+    'form_change_order_term_url'=>$form_change_order_url,
+        )); 
+?>

@@ -1,0 +1,65 @@
+body,ol,li,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0px;padding:0px;}
+ul,li,ol,dl,dt,dd{list-style:none;}img{border:none;}
+body{font:12px "Microsoft YaHei","SimSun","Arial Narrow",HELVETICA;background:url(images/bg.jpg) no-repeat center top #8fe4ff;-webkit-text-size-adjust:100%;color:#646464;}
+a{color:#646464;text-decoration:none;}
+.wp{width:982px;overflow:hidden;margin:0px auto;}
+.red{color:red;}
+.cl{clear:both;}
+.yellow{color:#f60;}
+.text_td{display:block;overflow:hidden;white-space:nowrap;}
+.blue{color:blue;font-family:Verdana;}
+.nr{margin:0px!important;}
+.nb{background:none!important;}
+#top{height:30px;line-height:30px;background:url(images/top_bg.jpg) repeat-x #fff;}
+#top_logo{float:left;width:82px;height:21px;background:url(images/top_logo.jpg) no-repeat;text-indent:82px;margin:4px 45px 0px 0px;}
+#top_cont dl{float:left;width:370px;}
+#top_cont ul{float:right;}
+#top_cont ul li{float:left;}
+#top_cont li a{color:#666;margin:0px 1em;text-shadow:1px 1px #ccc;}
+.tli1,.tli2,.tli3,.tli4{background-position:left;background-repeat:no-repeat;text-indent:1.5em;}
+.tli1{background-image:url(images/tli01.png);}
+.tli2{background-image:url(images/tli02.png);}
+.tli3{background-image:url(images/tli02-03.png);}
+.tli4{background-image:url(images/tli04.png);}
+
+#banner{height:406px;position:relative;overflow:hidden;}
+#logo{width:257px;height:108px;text-indent:257px;background:url(images/logo.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/logo.png");background:none;position:absolute;left:0px;top:49px;}
+#mn_left,#mn_right{width:2px;height:44px;}
+#mn_left{float:left;background:url(images/nav_left.jpg) no-repeat;}
+#mn_right{float:right;background:url(images/nav_right.jpg) no-repeat;}
+#mn_bottom{height:2px;background:url(images/nav_bottom_bg.png) repeat-x!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/nav_bottom_bg.png");background:none;font-size:0px;line-height:0px;overflow:hidden;}
+#main_nav ul{float:left;width:978px;height:44px;display:block;background:url(images/nav_bg.jpg) repeat-x;overflow:hidden;}
+#main_nav ul li{float:left;display:block;height:44px;padding:0px 3em;background:url(images/nav_line.jpg) no-repeat right  bottom;}
+#main_nav ul li a{display:block;width:74px;height:18px;font-size:16px;text-indent:74px;margin-top:10px;}
+#main_nav .i1{background:url(images/i1.jpg) no-repeat}
+#main_nav .i2{background:url(images/i2.jpg) no-repeat;}
+#main_nav .i3{background:url(images/i3.jpg) no-repeat;}
+#main_nav .i4{background:url(images/i4.jpg) no-repeat;}
+#main_nav .i5{background:url(images/i5.jpg) no-repeat;}
+#main_nav .i6{background:url(images/i6.jpg) no-repeat;}
+
+#sider{float:left;width:250px;overflow:hidden;}
+#cont{float:right;width:717px;overflow:hidden;}
+#web_cont{margin-top:15px;}
+#star_game{margin-bottom:10px;}
+#star_game a{width:250px;height:80px;background:url(images/star_btn.gif) no-repeat;text-indent:250px;}
+#ka{margin-bottom:15px;}
+#ka li{height:32px;margin-bottom:8px;}
+#ka li span{display:block;float:left;width:10px;height:32px;background:url(images/xs_left.png) no-repeat;}
+#ka li a{display:block;float:left;width:240px;height:32px;}
+.scol{margin-bottom:10px;}
+.scol_title{height:34px;line-height:32px;background:url(images/scol_title_bg.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/scol_title_bg.png");background:none;z-index:9999;overflow:hidden;}
+.scol_cont{background:url(images/scol_bg.jpg) repeat-y;margin-top:-2px;padding:10px 10px 5px 10px;}
+.scol_bottom{height:10px;background:url(images/scol_bottom.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/scol_bottom.png");background:none;overflow:hidden;}
+#gs_title h2{float:left;width:89px;height:14px;background:url(images/game_server.jpg) no-repeat;text-indent:89px;margin:9px 0px 0px 10px;display:inline;}
+#gs_cont li{margin-bottom:5px;}
+#gs_cont li a{display:block;width:230px;height:26px;line-height:26px;background:url(images/server_t.jpg) no-repeat;text-indent:15px;color:#ccc;}
+#gs_cont li a .yellow{float:right;*margin-top:-26px;padding-right:15px;}
+#gi_title h2{float:left;width:74px;height:14px;background:url(images/game_info.jpg) no-repeat;text-indent:74px;margin:9px 0px 0px 10px;}
+#gi_cont dl{text-indent:2em;}
+#gi_cont dl dt,#gi_cont dl dd{display:inline;line-height:2em;color:#999;border-bottom:1px dashed #404040;padding-bottom:4px;}
+#footer{height:145px;background:#232323;overflow:hidden;margin-top:35px;}
+#footer_cont h3{float:left;width:165px;height:53px;background:url(images/bottom_logo.jpg) no-repeat;text-indent:165px;margin:40px 74px 0px 26px;}
+#copyright{float:left;width:515px;height:60px;padding:10px 0px 10px 65px;border-left:1px solid #464646;margin-top:30px;}
+#copyright ul li{display:inline;line-height:2em;}
+#copyright p{line-height:2em;}

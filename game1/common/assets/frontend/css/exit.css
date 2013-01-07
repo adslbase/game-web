@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; font-size:12px; line-height:1.5; color:#666;}
+*{ padding:0; margin:0; list-style:none;}
+img{ border:none;}
+a{ color:#3089d5; text-decoration:none;}
+a:hover{ color:#f60; text-decoration:underline;}
+.pd10{ padding:10px 0 0;}
+
+.topBox{ width:215px; margin:100px auto; background:url(../images/exit/loading.png) no-repeat; height:40px; padding:20px; overflow:hidden;}
+.exitLoding{ background:url(../images/exit/loading.png) left -300px no-repeat; height:10px; width:216px; margin:10px 0 0;}
+.exitLoding span{ display:block; background:url(../images/exit/bg.png) repeat-x; height:10px;}
+.conBox{ background:#fff url(../images/exit/bg.png) left -29px  repeat-x;  min-height:200px;_height:200px; }
+.content{  margin:0 auto; width:790px; margin:0 autp;}
+.comTItle{ background:url(../images/exit/loading.png) left -260px no-repeat; width:252px; height:32px; line-height:32px; text-align:center; margin:0 auto; font-size:14px;}
+.comList{ padding:20px 0;}
+.comList li{ background:url(../images/exit/loading.png) left -80px no-repeat; width:162px; height:153px; float:left; margin:0 5px; text-align:center; padding:10px;}
+.comList .pic{ background:#fff; border:1px #e1e1e1 solid;}
+.comList h2{ font-size:14px; font-weight:bold; margin:5px 0;}
+
+.graph{ 
+    width:215px; 
+} 
+#bar{ 
+    display:block; 
+    background:url('../images/exit/bg.png'); 
+    height:10px; 
+    text-align:center; 
+} 

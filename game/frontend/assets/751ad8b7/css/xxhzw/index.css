@@ -1,0 +1,69 @@
+#user_login{margin-bottom:15px;}
+#user_title{height:53px;background:url(images/user_top.png) no-repeat;}
+#user_cont{height:143px;background:url(images/user_cont.png) no-repeat;padding:14px 25px 0px 25px;}
+#user_cont .user_in{width:140px;height:27px;line-height:27px;background:url(images/user_in.jpg) no-repeat;border:1px solid #f60;text-indent:.5em;}
+.user_btn{float:right;width:83px;height:32px;line-height:30px;text-align:center;color:#000;font-size:14px;font-weight:bold;background:url(images/user_btn.jpg) no-repeat;border:none;cursor:pointer;}
+.uc_l{height:32px;line-height:32px;margin-bottom:17px;width:200px;}
+.uc_l .errorMessage{height:16px;line-height:16px;margin-bottom:11px;width:200px;text-align:center;}
+.uc_l a{color:#fff;}
+.login2{color:#fff;}
+.login2 dl{line-height:2em;font-size:14px;}
+.login2 dl dt u{font-weight:bold;font-family:Verdana;font-size:16px;}
+.login2 dl dd a{color:#fff;font-weight:bold;}
+.login2 dl dd a:hover{text-shadow:1px 1px red;}
+
+#news{height:177px;margin-bottom:15px;}
+#news_pic{float:left;width:450px;height:177px;overflow:hidden;background:#ccc;}
+#news_list{float:right;width:252px;height:177px;}
+#nl_top{height:10px;background:url(images/news_top.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/news_top.png");background:none;overflow:hidden;}
+#nl_bottom{height:10px;background:url(images/news_bottom.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/news_bottom.png");background:none;overflow:hidden;}
+#nl_cont{height:123px;background:url(images/news_bg.jpg) repeat-y;padding:6px 10px 0px 10px;overflow:hidden;}
+#nl_cont li{line-height:2em;border-bottom:1px dotted #666;}
+#nl_cont li a{color:#FFF;}
+#nl_cont li a:hover {color:#FC6;}
+#nl_cont li span{float:right;*margin-top:-2em;color:#FFF;}
+#nl_title h2{width:252px;height:28px;text-indent:252px;display:block;background:url(images/news_title.jpg) no-repeat;}
+#act{height:76px;}
+#act ul li{float:left;width:170px;height:76px;overflow:hidden;margin-right:12px;}
+.ccol_title{height:34px;}
+.ccol_left{float:left;width:10px;height:34px;background:url(images/ccol_t_left.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/ccol_t_left.png");background:none;}
+.ccol_right{float:right;width:10px;height:34px;background:url(images/ccol_t_right.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/ccol_t_right.png");background:none;}
+.ccol_t_cont{float:left;width:697px;height:34px;background:url(images/ccol_t_bg.png) repeat-x;}
+.ccol_t_cont h2{float:left;width:75px;height:14px;background:url(images/game_data.jpg) no-repeat;text-indent:75px;margin:9px 0px 0px 10px;}
+#game_data{margin-top:15px;}
+#gd_cont{background:#333;margin-top:-2px;padding:15px;height:200px;}
+#gd_cont_l{float:left;width:315px;}
+#gd_cont_r{float:right;}
+#gd_cont dl{float:left;width:405px;margin-bottom:10px;}
+#gd_cont dl dt,#gd_cont dl dd{height:26px;line-height:26px;}
+#gd_cont dl dt{float:left;display:inline-table;width:70px;height:26px;text-align:center;line-height:26px;background:url(images/sicon.jpg) no-repeat;color:#fc6;margin-top:5px;}
+#gd_cont dl dd{float:left;white-space:nowrap;border-bottom:1px dashed #404040;margin:5px 0px;color:#404040;}
+#gd_cont dl dd a{padding:0px 1em;}
+#gd_cont dl dd a:hover{color:#fc6;}
+#gr_title,#gp_title{height:34px;background:url(images/cc2_t.jpg) repeat-x;line-height:32px;}
+#gr_title h2{float:left;width:74px;height:14px;background:url(images/game_gl.jpg) no-repeat;text-indent:74px;margin:9px 0px 0px 10px;}
+#gp_title h2{float:left;width:74px;height:15px;background:url(images/game_pics.jpg) no-repeat;text-indent:74px;margin:9px 0px 0px 10px;}
+#gu_title h2{float:left;width:74px;height:15px;background:url(images/server_title.jpg) no-repeat;text-indent:74px;margin:9px 0px 0px 10px;}
+.game_info{margin-bottom:10px;}
+#gr_cont{background:#333;padding:15px;}
+#gr_cont ul{float:left;width:315px;}
+#gr_cont ul li{line-height:2em;border-bottom:1px solid #404040;background:url(images/list_icon.jpg) no-repeat left center;text-indent:1em;}
+#gr_cont ul li a{color:#999;}
+#gr_cont ul li a:hover{color:#fc6;}
+#gr_cont ul li span{float:right;*margin-top:-2em;}
+#gp_bottom{height:10px;background:url(images/ccol_bottoms.png) no-repeat!important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale,src="http://g.marstv.com/assets/751ad8b7/css/xxhzw/images/ccol_bottoms.png");background:none;overflow:hidden;}
+#gp_cont{background:#333;padding:15px 15px 5px 15px;}
+#gp_cont ul li{float:left;width:120px;height:66px;border:1px solid #000;background:#ccc;overflow:hidden;margin-right:19px;}
+#gp_cont ul li a{display:block}
+/* qqshop focus */
+#focus {width:450px;height:177px;overflow:hidden;position:relative;}
+#focus ul {height:380px;position:absolute;}
+#focus ul li {float:left;width:450px;height:177px;overflow:hidden;position:relative;background:#000;}
+#focus ul li div {position:absolute;overflow:hidden;}
+#focus .btnBg {position:absolute;width:800px;height:20px;left:0;bottom:0;background:#000;}
+#focus .btn {position:absolute;width:780px;height:10px;padding:5px 10px;right:0;bottom:0;text-align:right;}
+#focus .btn span {display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+#focus .btn span.on {background:#fff;}
+#focus .preNext {width:45px;height:100px;position:absolute;top:80px;background:url(images/sprite.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0;background-position:right top;}
