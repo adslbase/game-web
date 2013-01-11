@@ -1,0 +1,88 @@
+/* =============================================================================
+COMMON
+============================================================================= */
+html,body{height:100%;}
+body {font:63%/1.5 'Tahoma','simsun','arial';text-align:left;color:#303030;}
+a {color:#0085cc; text-decoration:none;}
+a:hover, a:active, a:focus {color:#df0000;}
+
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+.t-left {text-align:left !important;}
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+
+.va-top {vertical-align:top !important;}
+.va-middle {vertical-align:middle !important;}
+.va-bottom {vertical-align:bottom !important;}
+
+ul, ol{ list-style: none }
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+    zoom: 1;
+}
+/* END Clear 
+----------------------------------------------------------------------------------------------------*/
+/* =============================================================================
+TOOL
+============================================================================= */
+.width-49{width: 49%}/*settting中用到*/
+
+
+/* =============================================================================
+main
+============================================================================= */
+
+#main { font-size: 1.2em;}
+.content{ padding: 10px 10px 20px;}
+
+.col2{ height: 100%;}
+.col2 .content{ margin-left: 208px; padding: 0; height: 100%}
+.aside{ width:200px; border-right: #EAEAEA 8px solid; height: 100%}
+
+#branding {
+    overflow: hidden;
+    padding: 10px 20px 0 20px;
+    position: relative;
+    background-color: #EEE;
+}
+
+.breadcrumb {
+    padding-bottom: 5px;
+}
+
+
+
+

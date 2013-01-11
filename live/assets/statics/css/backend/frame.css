@@ -1,0 +1,105 @@
+/* =============================================================================
+COMMON
+============================================================================= */
+body {font:63%/1.5 'Tahoma','simsun','arial';text-align:left;color:#303030;}
+a {color:#0085cc; text-decoration:none;}
+a:hover, a:active, a:focus {color:#df0000;}
+
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+.t-left {text-align:left !important;}
+
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+
+.va-top {vertical-align:top !important;}
+.va-middle {vertical-align:middle !important;}
+.va-bottom {vertical-align:bottom !important;}
+
+ul, ol{ list-style: none }
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}
+/* END Clear 
+----------------------------------------------------------------------------------------------------*/
+
+
+
+/* =============================================================================
+LAYOUT
+============================================================================= */
+
+#main { min-width:980px;background-color:#eaeaea; font-size: 1.2em;}
+
+#tray {padding:5px 15px; height: 18px; background:url("../../images/backend/frame/tray.gif") 0 0 repeat-x;color:#cfcfcf; overflow: hidden}
+#tray a, #tray strong {color:#fff;}
+#tray p.f-left {width:50%;}
+#tray .f-right span { padding:0 10px}
+#tray #logout {padding-left:18px; background:url("../../images/backend/frame/tray-logout.gif") 0 50% no-repeat; text-transform:uppercase;}
+#tray #switcher {margin-right:15px;}
+#tray #switcher img {display:block; float:left; width:16px; height:16px; border:0;}
+
+#menu {background:url("../../images/backend/frame/menu.gif") 0 0 repeat-x #0085cc; height:62px;overflow: hidden}
+#logo{float:left; margin-right:45px;}
+#menu ul li { float:left; margin:15px 15px 0 0; display: inline}
+#menu ul li a {display: inline-block;padding-left:4px; background:url("../../images/backend/frame/menu-left.gif") 0 0 no-repeat;color:#303030;}/*liunux-ff下padding-left*/
+#menu ul li a span {display: inline-block;padding:7px 18px 9px 10px; background:url("../../images/backend/frame/menu-right.gif") 100% 0 no-repeat; cursor: pointer}
+#menu ul li a:hover, #menu ul li.menu-active a {background:url("../../images/backend/frame/menu-left.gif") 0 -35px no-repeat;}
+#menu ul li a:hover span, #menu ul li.menu-active a span {background:url("../../images/backend/frame/menu-right.gif") 100% -35px no-repeat;}
+#menu ul li.menu-active a {font-weight:bold;color:#0085cc;}
+#menu ul.f-right a {color:#df0000;white-space:nowrap;}
+
+#aside {}
+#content { background:#fff; margin-left: 155px;_margin-left: 152px; height:100%}/*height为了去除ie6 3pxbug*/
+
+
+#footer {height: 20px; padding:5px 15px; background:url("../../images/backend/frame/separator.gif") 0 0 repeat-x;color:#707070;
+}
+#footer a {color:#707070;}
+#footer a:hover{color:#303030;}
+/* =============================================================================
+/* =============================================================================
+OTHERS
+============================================================================= */
+#leftMain{ margin:0 10px;width:125px; padding-top: 20px;}
+#leftMain h3 {color: #275D96;border-bottom: 1px solid #0892DC;height: 24px;font-size: 14px; text-indent: 10px; margin-top: 10px;}
+#leftMain h3 span {background: url(../../images/backend/frame/left_menu.png) no-repeat  8px -78px;height: 20px;width: 20px;display: block;float: right;margin-top: 2px;}
+#leftMain h3 span.on {background-position: -33px -78px;}
+#leftMain ul{ margin-bottom: 15px}
+#leftMain ul li{width:112px;border-bottom:1px solid #cfcfcf;}
+#leftMain ul li a {display:block; padding:5px 0 5px 10px; color:#303030;}
+#leftMain ul li.submenu-active{width:125px; border-bottom: none;}
+#leftMain ul li.submenu-active a {color:#fff; background:url("../../images/backend/frame/submenu-active.gif") 100% 50% no-repeat #df0000; font-weight:bold; z-index:999;}

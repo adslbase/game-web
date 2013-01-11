@@ -1,0 +1,27 @@
+body{background-color: #C0D0F6;
+     background-image: url(skin/mh/mm_body_bg_repeat.jpg);
+     background-repeat: repeat-x;
+     background-position: center 0;color:#444;}
+
+.wrap{background-image: url(skin/mh/mm_body_bg.jpg);background-repeat: no-repeat;
+      background-position: center 0;}
+
+a{color:#444;}
+
+/*频道按钮*/
+.live_tab a{color:#999}
+/*下排流按钮*/
+#live_list a{color: #444}
+/*右侧按钮*/
+#tool_button a{ color: #fff}
+/*论坛*/
+#bbs_list{}
+/*节目单*/
+.live_list_cont{}
+
+
+
+.live_tab .current,#live_list .current,#live_button .current{color: #fff}
+
+
+a:hover{ color: #fff!important}

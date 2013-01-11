@@ -1,0 +1,8 @@
+body{background:url(skin/wow.jpg) top center #333;color:#7f7f7f;}
+
+
+a{color:#000;}
+
+a:hover{ color: #fff}
+
+.live_tab .current,#live_list .current,#live_button .current{background-position:0px -31px; color: #fff}

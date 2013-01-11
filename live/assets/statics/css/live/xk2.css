@@ -1,0 +1,24 @@
+body{background-color: #020202;
+     background-image: url(skin/xk2/bg_01.jpg);
+     background-repeat: repeat-x;
+     background-position: center 0;color:#D0C1DD;}
+
+.wrap{}
+a{color:#D0C1DD}
+/*频道按钮*/
+.live_tab a{}
+/*下排流按钮*/
+#live_list a{}
+/*右侧按钮*/
+#tool_button a{ color: #fff}
+/*论坛*/
+#bbs_list{}
+/*节目单*/
+.live_list_cont{ color: #444}
+
+
+
+.live_tab .current,#live_list .current,#live_button .current{color: #fff}
+
+
+a:hover{ color: #fff!important}

@@ -1,0 +1,72 @@
+*	{
+	margin: 0;
+	padding: 0;
+	}
+html, body	{
+	height: 100% !important;
+	}
+body	{
+	color: #fff; font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;
+}
+#login-holder{
+        height: 100%; position:relative;
+	background:url(../../images/backend/login/bg_login.png) repeat-x bottom #A2D5F0;
+}
+#login-info{
+	width:800px; height:496px; position: absolute; bottom:104px; left: 22%;
+	background:url(../../images/backend/login/login_main.png) no-repeat;
+}
+#login-table{
+    margin: 220px 0 0 340px;
+}
+#login-table th	{
+	padding: 0 0 6px 0;
+	text-align: left;
+	width: 75px;
+	}
+#login-table td	{
+	padding: 0 0 6px 0;
+	}
+#login-table label	{
+	cursor: pointer;
+	font-weight: bold;
+	padding-left: 10px; vertical-align:middle;
+	padding: 2px;
+	 
+	}
+.login-inp	{
+	background: url(../../images/backend/login/inp_login.gif) no-repeat;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 28px;
+	padding: 8px 6px 0 10px;
+	width: 204px;
+	}
+#login-bottom{
+    width:800px; height:102px; position: absolute; bottom:0;left: 22%;
+	background:url(../../images/backend/login/login_root.png) no-repeat;
+}
+
+ .checkbox-size	{
+	width:13px;
+	height:13px;
+	margin: 5px 0;
+        vertical-align: middle;
+	 
+	}	
+	
+	.submit-login	{
+	background: url(../../images/backend/login/submit_login.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	text-indent: -3000px;
+	width: 73px;
+	}
+.submit-login:hover	{
+	background: url(../../images/backend/login/submit_login.gif) no-repeat 0 -29px;
+	}
+	
+	
